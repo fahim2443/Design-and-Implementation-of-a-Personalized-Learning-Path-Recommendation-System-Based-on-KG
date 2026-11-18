@@ -3,6 +3,7 @@ import networkx as nx
 from neo4j import GraphDatabase
 
 URI, AUTH = "bolt://localhost:7687", ("neo4j", "thesis12345")
+NOT_STUDY = {"商用平台", "企业", "标准组织"}
 
 def load_graph(edge_set="all"):
     """edge_set: 'all' uses every arrow, 'strong' uses only strong arrows."""
@@ -10,11 +11,11 @@ def load_graph(edge_set="all"):
     drv = GraphDatabase.driver(URI, auth=AUTH)
     with drv.session() as s:
         for r in s.run("MATCH (c:Concept) RETURN c.name AS n, c.type AS t, "
-                       "c.chapter AS ch, c.section AS sec, c.pos AS pos"):
+                       "c.chapter AS ch, c.section AS sec, c.pos AS pos, c.category AS cat"):
             ch = r["ch"] if r["ch"] is not None else 99
             sec = r["sec"] if r["sec"] is not None else 99
             pos = r["pos"] if r["pos"] is not None else 99
-            G.add_node(r["n"], type=r["t"], order=(ch, sec, pos),
+            G.add_node(r["n"], type=r["t"], cat=r["cat"], order=(ch, sec, pos),
                        diff=estimate_difficulty(r["t"], ch))
             G.nodes[r["n"]]["minutes"] = estimate_minutes(r["t"], G.nodes[r["n"]]["diff"])
         for r in s.run("MATCH (a:Concept)-[r:PRECEDES]->(b:Concept) "
@@ -49,13 +50,15 @@ def plan(G, target, mastered):
             stack.append(p)
     sub = G.subgraph(needed)
     # topological sort; when several are allowed, easiest first, then course order
-    return list(nx.lexicographical_topological_sort(
-        sub, key=lambda n: (G.nodes[n]["diff"], G.nodes[n]["order"])))
+    ordered = nx.lexicographical_topological_sort(
+        sub, key=lambda n: (G.nodes[n]["order"][0], G.nodes[n]["order"][1],
+                            G.nodes[n]["diff"], G.nodes[n]["order"][2]))
+    return [n for n in ordered if G.nodes[n]["cat"] not in NOT_STUDY or n == target]
 
 def linear_baseline(G, target, mastered):
     """Normal course order: everything up to the target, skipping mastered."""
     t_order = G.nodes[target]["order"]
-    items = [n for n in G.nodes if G.nodes[n]["order"] <= t_order and n not in mastered]
+    items = [n for n in G.nodes if G.nodes[n]["order"] <= t_order and n not in mastered\n             and G.nodes[n]["cat"] not in NOT_STUDY]
     return sorted(items, key=lambda n: G.nodes[n]["order"])
 
 def report(target, mastered):
