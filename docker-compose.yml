@@ -1,0 +1,25 @@
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: kg-neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/thesis12345
+      NEO4J_PLUGINS: '["apoc"]'
+    volumes:
+      - ./data/neo4j:/data
+      - ./data/import:/var/lib/neo4j/import
+
+  postgres:
+    image: postgres:16
+    container_name: kg-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: thesis
+      POSTGRES_PASSWORD: thesis12345
+      POSTGRES_DB: learning
+    volumes:
+      - ./data/pg:/var/lib/postgresql/data
