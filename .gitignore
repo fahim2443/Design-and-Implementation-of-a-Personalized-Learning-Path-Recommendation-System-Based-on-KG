@@ -1,2 +1,5 @@
 .DS_Store
 **/.DS_Store
+
+# Neo4j runtime data
+data/neo4j/

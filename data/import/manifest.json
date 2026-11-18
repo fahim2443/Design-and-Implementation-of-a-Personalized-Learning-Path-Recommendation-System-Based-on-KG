@@ -1,0 +1,12 @@
+{
+  "files": {
+    "triples_normalized_all_refined.json": {
+      "description": "知识图谱三元组（subject-predicate-object）",
+      "size_kb": 741.2
+    },
+    "prerequisite_graph.json": {
+      "description": "知识点前置关系图（nodes/edges 有向无环图）",
+      "size_kb": 204.1
+    }
+  }
+}

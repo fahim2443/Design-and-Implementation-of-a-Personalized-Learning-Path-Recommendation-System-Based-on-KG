@@ -1,0 +1,6912 @@
+{
+  "metadata": {
+    "nodes": 165,
+    "edges": 703,
+    "is_dag": true
+  },
+  "nodes": [
+    {
+      "id": 3,
+      "name": "云计算的定义与特征",
+      "type": "Topic",
+      "first_seen": [
+        0,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 4,
+      "name": "云计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        2
+      ],
+      "mentions": 21,
+      "category": "基础概念"
+    },
+    {
+      "id": 5,
+      "name": "能耗",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        5
+      ],
+      "mentions": 1,
+      "category": "节能技术"
+    },
+    {
+      "id": 6,
+      "name": "NIST",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        6
+      ],
+      "mentions": 1,
+      "category": "标准组织"
+    },
+    {
+      "id": 7,
+      "name": "按量计费",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        6
+      ],
+      "mentions": 2,
+      "category": "特征"
+    },
+    {
+      "id": 8,
+      "name": "按需使用",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        6
+      ],
+      "mentions": 2,
+      "category": "特征"
+    },
+    {
+      "id": 9,
+      "name": "弹性",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        7
+      ],
+      "mentions": 2,
+      "category": "特征"
+    },
+    {
+      "id": 10,
+      "name": "资源池",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        19
+      ],
+      "mentions": 2,
+      "category": "基础设施"
+    },
+    {
+      "id": 11,
+      "name": "虚拟化",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        7
+      ],
+      "mentions": 4,
+      "category": "关键技术"
+    },
+    {
+      "id": 12,
+      "name": "虚拟化资源池",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        7
+      ],
+      "mentions": 1,
+      "category": "体系架构"
+    },
+    {
+      "id": 13,
+      "name": "效用计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        7
+      ],
+      "mentions": 2,
+      "category": "计算模式"
+    },
+    {
+      "id": 14,
+      "name": "云服务",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        7
+      ],
+      "mentions": 4,
+      "category": "基础概念"
+    },
+    {
+      "id": 15,
+      "name": "基础设施即服务",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 1,
+      "category": "服务模型"
+    },
+    {
+      "id": 16,
+      "name": "平台即服务",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 1,
+      "category": "服务模型"
+    },
+    {
+      "id": 17,
+      "name": "软件即服务",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 1,
+      "category": "服务模型"
+    },
+    {
+      "id": 18,
+      "name": "SaaS",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 1,
+      "category": "服务模型"
+    },
+    {
+      "id": 19,
+      "name": "IaaS",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 2,
+      "category": "服务模型"
+    },
+    {
+      "id": 20,
+      "name": "PaaS",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 1,
+      "category": "服务模型"
+    },
+    {
+      "id": 21,
+      "name": "社区云",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        9
+      ],
+      "mentions": 1,
+      "category": "部署模型"
+    },
+    {
+      "id": 22,
+      "name": "公有云",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        9
+      ],
+      "mentions": 1,
+      "category": "部署模型"
+    },
+    {
+      "id": 23,
+      "name": "混合云",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        9
+      ],
+      "mentions": 1,
+      "category": "部署模型"
+    },
+    {
+      "id": 24,
+      "name": "私有云",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        9
+      ],
+      "mentions": 1,
+      "category": "部署模型"
+    },
+    {
+      "id": 25,
+      "name": "网格计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        12
+      ],
+      "mentions": 2,
+      "category": "计算模式"
+    },
+    {
+      "id": 26,
+      "name": "分布式计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        12
+      ],
+      "mentions": 2,
+      "category": "计算模式"
+    },
+    {
+      "id": 27,
+      "name": "并行计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        12
+      ],
+      "mentions": 4,
+      "category": "计算模式"
+    },
+    {
+      "id": 28,
+      "name": "高性能计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        14
+      ],
+      "mentions": 1,
+      "category": "计算模式"
+    },
+    {
+      "id": 29,
+      "name": "边缘计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        15
+      ],
+      "mentions": 1,
+      "category": "计算模式"
+    },
+    {
+      "id": 30,
+      "name": "Google",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        15
+      ],
+      "mentions": 2,
+      "category": "商用平台"
+    },
+    {
+      "id": 31,
+      "name": "Amazon",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        15
+      ],
+      "mentions": 2,
+      "category": "商用平台"
+    },
+    {
+      "id": 32,
+      "name": "Microsoft",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        15
+      ],
+      "mentions": 1,
+      "category": "商用平台"
+    },
+    {
+      "id": 33,
+      "name": "MapReduce",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        16
+      ],
+      "mentions": 1,
+      "category": "编程模型"
+    },
+    {
+      "id": 34,
+      "name": "AWS",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        16
+      ],
+      "mentions": 1,
+      "category": "商用平台"
+    },
+    {
+      "id": 35,
+      "name": "VMware",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        16
+      ],
+      "mentions": 1,
+      "category": "企业"
+    },
+    {
+      "id": 36,
+      "name": "分布式文件系统",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        16
+      ],
+      "mentions": 1,
+      "category": "存储技术"
+    },
+    {
+      "id": 37,
+      "name": "BigTable",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        16
+      ],
+      "mentions": 1,
+      "category": "存储技术"
+    },
+    {
+      "id": 38,
+      "name": "LoudCloud",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        16
+      ],
+      "mentions": 1,
+      "category": "企业"
+    },
+    {
+      "id": 39,
+      "name": "GFS",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        16
+      ],
+      "mentions": 1,
+      "category": "存储技术"
+    },
+    {
+      "id": 40,
+      "name": "资源聚合",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        19
+      ],
+      "mentions": 1,
+      "category": "基础设施"
+    },
+    {
+      "id": 41,
+      "name": "高扩展性",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        19
+      ],
+      "mentions": 1,
+      "category": "特征"
+    },
+    {
+      "id": 42,
+      "name": "资源监控",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        19
+      ],
+      "mentions": 1,
+      "category": "监管技术"
+    },
+    {
+      "id": 43,
+      "name": "虚拟机",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        19
+      ],
+      "mentions": 1,
+      "category": "关键技术"
+    },
+    {
+      "id": 44,
+      "name": "高可靠性",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        0,
+        19
+      ],
+      "mentions": 1,
+      "category": "特征"
+    },
+    {
+      "id": 45,
+      "name": "云计算的体系架构与关键技术",
+      "type": "Topic",
+      "first_seen": [
+        0,
+        1,
+        1
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 46,
+      "name": "物理资源层",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        4
+      ],
+      "mentions": 1,
+      "category": "体系架构"
+    },
+    {
+      "id": 47,
+      "name": "容器",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        5
+      ],
+      "mentions": 2,
+      "category": "关键技术"
+    },
+    {
+      "id": 48,
+      "name": "管理中间件层",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        6
+      ],
+      "mentions": 1,
+      "category": "体系架构"
+    },
+    {
+      "id": 49,
+      "name": "SOA构建层",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        7
+      ],
+      "mentions": 1,
+      "category": "体系架构"
+    },
+    {
+      "id": 50,
+      "name": "任务调度",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        11
+      ],
+      "mentions": 1,
+      "category": "监管技术"
+    },
+    {
+      "id": 51,
+      "name": "数据中心",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        2,
+        1
+      ],
+      "mentions": 1,
+      "category": "基础设施"
+    },
+    {
+      "id": 52,
+      "name": "数据加密",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 1,
+      "category": "安全技术"
+    },
+    {
+      "id": 53,
+      "name": "SDN",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 1,
+      "category": "网络技术"
+    },
+    {
+      "id": 54,
+      "name": "隔离技术",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 1,
+      "category": "安全技术"
+    },
+    {
+      "id": 55,
+      "name": "身份认证",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 1,
+      "category": "安全技术"
+    },
+    {
+      "id": 56,
+      "name": "访问控制",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 1,
+      "category": "安全技术"
+    },
+    {
+      "id": 57,
+      "name": "绿色计算",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 1,
+      "category": "节能技术"
+    },
+    {
+      "id": 58,
+      "name": "NFV",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 1,
+      "category": "网络技术"
+    },
+    {
+      "id": 59,
+      "name": "云计算数据中心",
+      "type": "Topic",
+      "first_seen": [
+        0,
+        1,
+        12
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 60,
+      "name": "云数据中心",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        2,
+        3
+      ],
+      "mentions": 1,
+      "category": "基础设施"
+    },
+    {
+      "id": 61,
+      "name": "液冷",
+      "type": "Concept",
+      "first_seen": [
+        0,
+        2,
+        13
+      ],
+      "mentions": 1,
+      "category": "节能技术"
+    },
+    {
+      "id": 62,
+      "name": "云计算与其他技术",
+      "type": "Topic",
+      "first_seen": [
+        0,
+        3,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 64,
+      "name": "分布式系统概览",
+      "type": "Topic",
+      "first_seen": [
+        1,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 65,
+      "name": "Hadoop简介",
+      "type": "Topic",
+      "first_seen": [
+        1,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 66,
+      "name": "Hadoop",
+      "type": "Concept",
+      "first_seen": [
+        1,
+        1,
+        3
+      ],
+      "mentions": 11,
+      "category": "大数据平台"
+    },
+    {
+      "id": 67,
+      "name": "HBase",
+      "type": "Concept",
+      "first_seen": [
+        1,
+        1,
+        4
+      ],
+      "mentions": 1,
+      "category": "存储技术"
+    },
+    {
+      "id": 68,
+      "name": "HDFS",
+      "type": "Concept",
+      "first_seen": [
+        1,
+        1,
+        4
+      ],
+      "mentions": 3,
+      "category": "存储技术"
+    },
+    {
+      "id": 69,
+      "name": "Hive",
+      "type": "Concept",
+      "first_seen": [
+        1,
+        1,
+        6
+      ],
+      "mentions": 1,
+      "category": "大数据平台"
+    },
+    {
+      "id": 70,
+      "name": "Hadoop架构和核心组件",
+      "type": "Topic",
+      "first_seen": [
+        1,
+        2,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 71,
+      "name": "YARN",
+      "type": "Concept",
+      "first_seen": [
+        1,
+        2,
+        3
+      ],
+      "mentions": 7,
+      "category": "大数据平台"
+    },
+    {
+      "id": 72,
+      "name": "NoSQL",
+      "type": "Concept",
+      "first_seen": [
+        1,
+        2,
+        36
+      ],
+      "mentions": 1,
+      "category": "存储技术"
+    },
+    {
+      "id": 73,
+      "name": "负载均衡",
+      "type": "Concept",
+      "first_seen": [
+        1,
+        2,
+        41
+      ],
+      "mentions": 1,
+      "category": "监管技术"
+    },
+    {
+      "id": 74,
+      "name": "Hadoop的安装与部署",
+      "type": "Topic",
+      "first_seen": [
+        1,
+        3,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 76,
+      "name": "内存计算概览",
+      "type": "Topic",
+      "first_seen": [
+        2,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 77,
+      "name": "Spark简介",
+      "type": "Topic",
+      "first_seen": [
+        2,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 78,
+      "name": "Spark",
+      "type": "Concept",
+      "first_seen": [
+        2,
+        1,
+        1
+      ],
+      "mentions": 12,
+      "category": "大数据平台"
+    },
+    {
+      "id": 79,
+      "name": "Spark的架构与核心组件",
+      "type": "Topic",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 80,
+      "name": "Spark安装与部属",
+      "type": "Topic",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 82,
+      "name": "Chapter 8 云计算理论研究热点（4学时）",
+      "type": "Topic",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 84,
+      "name": "云存储的基本概念",
+      "type": "Topic",
+      "first_seen": [
+        4,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 85,
+      "name": "云存储的关键技术",
+      "type": "Topic",
+      "first_seen": [
+        4,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 86,
+      "name": "典型云存储系统",
+      "type": "Topic",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 87,
+      "name": "典型的云存储服务平台",
+      "type": "Topic",
+      "first_seen": [
+        4,
+        3,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 89,
+      "name": "云计算系统的资源监管体系",
+      "type": "Topic",
+      "first_seen": [
+        5,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 90,
+      "name": "资源监管",
+      "type": "Concept",
+      "first_seen": [
+        5,
+        0,
+        1
+      ],
+      "mentions": 12,
+      "category": "监管技术"
+    },
+    {
+      "id": 91,
+      "name": "云计算系统的资源监测",
+      "type": "Topic",
+      "first_seen": [
+        5,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 92,
+      "name": "OpenStack",
+      "type": "Concept",
+      "first_seen": [
+        5,
+        1,
+        21
+      ],
+      "mentions": 1,
+      "category": "云操作系统"
+    },
+    {
+      "id": 93,
+      "name": "云计算系统的任务调度",
+      "type": "Topic",
+      "first_seen": [
+        5,
+        2,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 94,
+      "name": "云计算系统的网络监管",
+      "type": "Topic",
+      "first_seen": [
+        5,
+        3,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 95,
+      "name": "云资源监管系统",
+      "type": "Topic",
+      "first_seen": [
+        5,
+        4,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 97,
+      "name": "云计算安全问题分析",
+      "type": "Topic",
+      "first_seen": [
+        6,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 98,
+      "name": "云计算安全保障技术",
+      "type": "Topic",
+      "first_seen": [
+        6,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 99,
+      "name": "云计算安全服务体系",
+      "type": "Topic",
+      "first_seen": [
+        6,
+        2,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 100,
+      "name": "Azure",
+      "type": "Concept",
+      "first_seen": [
+        6,
+        2,
+        10
+      ],
+      "mentions": 1,
+      "category": "商用平台"
+    },
+    {
+      "id": 102,
+      "name": "云数据中心的能耗",
+      "type": "Topic",
+      "first_seen": [
+        7,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 103,
+      "name": "阿里云",
+      "type": "Concept",
+      "first_seen": [
+        7,
+        0,
+        4
+      ],
+      "mentions": 1,
+      "category": "商用平台"
+    },
+    {
+      "id": 104,
+      "name": "云数据中心的能效评价体系",
+      "type": "Topic",
+      "first_seen": [
+        7,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 105,
+      "name": "PUE",
+      "type": "Concept",
+      "first_seen": [
+        7,
+        1,
+        8
+      ],
+      "mentions": 1,
+      "category": "节能技术"
+    },
+    {
+      "id": 106,
+      "name": "绿色云计算节能技术",
+      "type": "Topic",
+      "first_seen": [
+        7,
+        2,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 107,
+      "name": "节能的云数据管理",
+      "type": "Topic",
+      "first_seen": [
+        7,
+        3,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 109,
+      "name": "Amazon云计算平台",
+      "type": "Topic",
+      "first_seen": [
+        8,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 110,
+      "name": "Microsoft云计算平台",
+      "type": "Topic",
+      "first_seen": [
+        8,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 111,
+      "name": "阿里云计算平台",
+      "type": "Topic",
+      "first_seen": [
+        8,
+        2,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 112,
+      "name": "阿里巴巴",
+      "type": "Concept",
+      "first_seen": [
+        8,
+        2,
+        3
+      ],
+      "mentions": 3,
+      "category": "商用平台"
+    },
+    {
+      "id": 114,
+      "name": "操作系统概览",
+      "type": "Topic",
+      "first_seen": [
+        9,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 115,
+      "name": "OpenStack简介",
+      "type": "Topic",
+      "first_seen": [
+        9,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 116,
+      "name": "OpenStack体系架构与核心组件",
+      "type": "Topic",
+      "first_seen": [
+        9,
+        2,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 117,
+      "name": "OpenStack安装与部署",
+      "type": "Topic",
+      "first_seen": [
+        9,
+        3,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 118,
+      "name": "Chapter 7 OpenStack(4学时)",
+      "type": "Topic",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 120,
+      "name": "仿真平台概览",
+      "type": "Topic",
+      "first_seen": [
+        10,
+        0,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 121,
+      "name": "CloudSim简介",
+      "type": "Topic",
+      "first_seen": [
+        10,
+        1,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 122,
+      "name": "CloudSim",
+      "type": "Concept",
+      "first_seen": [
+        10,
+        1,
+        3
+      ],
+      "mentions": 7,
+      "category": "仿真平台"
+    },
+    {
+      "id": 123,
+      "name": "CloudSim架构与核心类",
+      "type": "Topic",
+      "first_seen": [
+        10,
+        2,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 124,
+      "name": "CloudSim安装与部署",
+      "type": "Topic",
+      "first_seen": [
+        10,
+        3,
+        0
+      ],
+      "mentions": 0,
+      "category": ""
+    },
+    {
+      "id": 125,
+      "name": "Docker",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 126,
+      "name": "KVM",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        5,
+        3
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 127,
+      "name": "Xen",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        5,
+        3
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 128,
+      "name": "Hyper-V",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        5,
+        3
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 129,
+      "name": "VirtualBox",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        3,
+        10
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 130,
+      "name": "Kubernetes",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        8,
+        1,
+        1
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 131,
+      "name": "微服务",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 132,
+      "name": "镜像",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        1,
+        2,
+        16
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 133,
+      "name": "仓库",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        5,
+        30
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 134,
+      "name": "cgroups",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 135,
+      "name": "namespace",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 136,
+      "name": "Amazon EC2",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        8,
+        0,
+        15
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 137,
+      "name": "阿里云ECS",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        8,
+        2,
+        11
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 138,
+      "name": "Google App Engine",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 139,
+      "name": "Heroku",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 140,
+      "name": "开发框架",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 141,
+      "name": "CRM",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 142,
+      "name": "ERP",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        0,
+        0,
+        8
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 143,
+      "name": "Office 365",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 144,
+      "name": "Salesforce",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 145,
+      "name": "Pig",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        1,
+        1,
+        6
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 146,
+      "name": "Zookeeper",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 147,
+      "name": "NameNode",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        1,
+        3,
+        21
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 148,
+      "name": "DataNode",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        1,
+        2,
+        12
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 149,
+      "name": "数据块",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        1,
+        2,
+        21
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 150,
+      "name": "副本",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        0,
+        0,
+        19
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 151,
+      "name": "Shuffle",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        1,
+        1,
+        10
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 152,
+      "name": "RDD",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        2,
+        1,
+        10
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 153,
+      "name": "Spark SQL",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        2,
+        1,
+        11
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 154,
+      "name": "Spark Streaming",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        2,
+        1,
+        11
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 155,
+      "name": "MLlib",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        2,
+        1,
+        11
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 156,
+      "name": "GraphX",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        2,
+        1,
+        11
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 157,
+      "name": "Nova",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        1,
+        4
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 158,
+      "name": "Swift",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        1,
+        4
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 159,
+      "name": "Neutron",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        2,
+        3
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 160,
+      "name": "Keystone",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        9,
+        2,
+        4
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 161,
+      "name": "OpenFlow",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        5,
+        3,
+        15
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 162,
+      "name": "网络虚拟化",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        5,
+        3,
+        13
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 163,
+      "name": "控制器",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        2,
+        2,
+        3
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 164,
+      "name": "交换机",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        4,
+        1,
+        25
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 165,
+      "name": "数据中心网络",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 166,
+      "name": "VNF",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 167,
+      "name": "MANO",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 168,
+      "name": "ETSI",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 169,
+      "name": "网络切片",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 170,
+      "name": "5G核心网",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 171,
+      "name": "对称加密",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        6,
+        1,
+        32
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 172,
+      "name": "非对称加密",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 173,
+      "name": "DES",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 174,
+      "name": "AES",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 175,
+      "name": "RSA",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 176,
+      "name": "SSL/TLS",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    },
+    {
+      "id": 177,
+      "name": "数字签名",
+      "type": "ExtendedConcept",
+      "first_seen": [
+        999,
+        999,
+        999
+      ],
+      "mentions": 0,
+      "category": "扩展概念"
+    }
+  ],
+  "edges": [
+    {
+      "source": "云计算的定义与特征",
+      "target": "云计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 云计算 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "能耗",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 能耗 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "NIST",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 NIST 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "按量计费",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 按量计费 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "按需使用",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 按需使用 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "弹性",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 弹性 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "资源池",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 资源池 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "虚拟化",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 虚拟化 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "虚拟化资源池",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 虚拟化资源池 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "效用计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 效用计算 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "云服务",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 云服务 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "基础设施即服务",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 基础设施即服务 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "平台即服务",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 平台即服务 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "软件即服务",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 软件即服务 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "SaaS",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 SaaS 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "IaaS",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 IaaS 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "PaaS",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 PaaS 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "社区云",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 社区云 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "公有云",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 公有云 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "混合云",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 混合云 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "私有云",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 私有云 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "网格计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 网格计算 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "分布式计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 分布式计算 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "并行计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 并行计算 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "高性能计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 高性能计算 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "边缘计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 边缘计算 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "Google",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 Google 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "Amazon",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 Amazon 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "Microsoft",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 Microsoft 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "MapReduce",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 MapReduce 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "AWS",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 AWS 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "VMware",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 VMware 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "分布式文件系统",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 分布式文件系统 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "BigTable",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 BigTable 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "LoudCloud",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 LoudCloud 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "GFS",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 GFS 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "资源聚合",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 资源聚合 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "高扩展性",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 高扩展性 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "资源监控",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 资源监控 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "虚拟机",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 虚拟机 的前置"
+    },
+    {
+      "source": "云计算的定义与特征",
+      "target": "高可靠性",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的定义与特征 在课程中先出现（(0, 0, 0)），是 高可靠性 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "物理资源层",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 物理资源层 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "资源池 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "虚拟化资源池",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化资源池 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "容器",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 容器 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "管理中间件层",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 管理中间件层 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "SOA构建层",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 SOA构建层 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "私有云 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Google 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "云计算的体系架构与关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式文件系统 在课程中先出现（(0, 1, 1)），是 云计算的体系架构与关键技术 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "任务调度",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 任务调度 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "数据中心",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "数据加密",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 数据加密 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "SDN",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 SDN 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "隔离技术",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 隔离技术 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "身份认证",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 身份认证 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "访问控制",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 访问控制 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "绿色计算",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 绿色计算 的前置"
+    },
+    {
+      "source": "云计算的体系架构与关键技术",
+      "target": "NFV",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算的体系架构与关键技术 在课程中先出现（(0, 1, 1)），是 NFV 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算数据中心",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(0, 1, 12)），是 云计算数据中心 的前置"
+    },
+    {
+      "source": "云计算数据中心",
+      "target": "数据中心",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算数据中心 在课程中先出现（(0, 1, 12)），是 数据中心 的前置"
+    },
+    {
+      "source": "云计算数据中心",
+      "target": "云数据中心",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算数据中心 在课程中先出现（(0, 1, 12)），是 云数据中心 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "云计算数据中心",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Google 在课程中先出现（(0, 1, 12)），是 云计算数据中心 的前置"
+    },
+    {
+      "source": "Microsoft",
+      "target": "云计算数据中心",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Microsoft 在课程中先出现（(0, 1, 12)），是 云计算数据中心 的前置"
+    },
+    {
+      "source": "云计算数据中心",
+      "target": "液冷",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算数据中心 在课程中先出现（(0, 1, 12)），是 液冷 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算与其他技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(0, 3, 0)），是 云计算与其他技术 的前置"
+    },
+    {
+      "source": "边缘计算",
+      "target": "云计算与其他技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "边缘计算 在课程中先出现（(0, 3, 0)），是 云计算与其他技术 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云计算与其他技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(0, 3, 0)），是 云计算与其他技术 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "云计算与其他技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(0, 3, 0)），是 云计算与其他技术 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "云计算与其他技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(0, 3, 0)），是 云计算与其他技术 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "云计算与其他技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "能耗 在课程中先出现（(0, 3, 0)），是 云计算与其他技术 的前置"
+    },
+    {
+      "source": "分布式计算",
+      "target": "分布式系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式计算 在课程中先出现（(1, 0, 0)），是 分布式系统概览 的前置"
+    },
+    {
+      "source": "Hadoop简介",
+      "target": "Hadoop",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Hadoop简介 在课程中先出现（(1, 1, 0)），是 Hadoop 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Hadoop简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(1, 1, 0)），是 Hadoop简介 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "Hadoop简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(1, 1, 0)），是 Hadoop简介 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "Hadoop简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Google 在课程中先出现（(1, 1, 0)），是 Hadoop简介 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Hadoop简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(1, 1, 0)），是 Hadoop简介 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "Hadoop简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式文件系统 在课程中先出现（(1, 1, 0)），是 Hadoop简介 的前置"
+    },
+    {
+      "source": "BigTable",
+      "target": "Hadoop简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "BigTable 在课程中先出现（(1, 1, 0)），是 Hadoop简介 的前置"
+    },
+    {
+      "source": "Hadoop简介",
+      "target": "HBase",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Hadoop简介 在课程中先出现（(1, 1, 0)），是 HBase 的前置"
+    },
+    {
+      "source": "Hadoop简介",
+      "target": "HDFS",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Hadoop简介 在课程中先出现（(1, 1, 0)），是 HDFS 的前置"
+    },
+    {
+      "source": "GFS",
+      "target": "Hadoop简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "GFS 在课程中先出现（(1, 1, 0)），是 Hadoop简介 的前置"
+    },
+    {
+      "source": "Hadoop简介",
+      "target": "Hive",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Hadoop简介 在课程中先出现（(1, 1, 0)），是 Hive 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hadoop 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "HBase",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HBase 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "Hadoop架构和核心组件",
+      "target": "YARN",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Hadoop架构和核心组件 在课程中先出现（(1, 2, 0)），是 YARN 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式文件系统 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "高可靠性",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "高可靠性 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "分布式计算",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式计算 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "Hive",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hive 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Google 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "BigTable",
+      "target": "Hadoop架构和核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "BigTable 在课程中先出现（(1, 2, 0)），是 Hadoop架构和核心组件 的前置"
+    },
+    {
+      "source": "Hadoop架构和核心组件",
+      "target": "NoSQL",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Hadoop架构和核心组件 在课程中先出现（(1, 2, 0)），是 NoSQL 的前置"
+    },
+    {
+      "source": "Hadoop架构和核心组件",
+      "target": "负载均衡",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Hadoop架构和核心组件 在课程中先出现（(1, 2, 0)），是 负载均衡 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Hadoop的安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hadoop 在课程中先出现（(1, 3, 0)），是 Hadoop的安装与部署 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Hadoop的安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(1, 3, 0)），是 Hadoop的安装与部署 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Hadoop的安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(1, 3, 0)），是 Hadoop的安装与部署 的前置"
+    },
+    {
+      "source": "并行计算",
+      "target": "内存计算概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "并行计算 在课程中先出现（(2, 0, 0)），是 内存计算概览 的前置"
+    },
+    {
+      "source": "Spark简介",
+      "target": "Spark",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "Spark简介 在课程中先出现（(2, 1, 0)），是 Spark 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Spark简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hadoop 在课程中先出现（(2, 1, 0)），是 Spark简介 的前置"
+    },
+    {
+      "source": "并行计算",
+      "target": "Spark简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "并行计算 在课程中先出现（(2, 1, 0)），是 Spark简介 的前置"
+    },
+    {
+      "source": "Hive",
+      "target": "Spark简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hive 在课程中先出现（(2, 1, 0)），是 Spark简介 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Spark简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(2, 1, 0)），是 Spark简介 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Spark简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(2, 1, 0)），是 Spark简介 的前置"
+    },
+    {
+      "source": "HBase",
+      "target": "Spark简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HBase 在课程中先出现（(2, 1, 0)），是 Spark简介 的前置"
+    },
+    {
+      "source": "任务调度",
+      "target": "Spark简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "任务调度 在课程中先出现（(2, 1, 0)），是 Spark简介 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Spark 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "并行计算",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "并行计算 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "Hive",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hive 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hadoop 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "Spark的架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(999, 999, 999)），是 Spark的架构与核心组件 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "Spark安装与部属",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Spark 在课程中先出现（(999, 999, 999)），是 Spark安装与部属 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Spark安装与部属",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hadoop 在课程中先出现（(999, 999, 999)），是 Spark安装与部属 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Spark安装与部属",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(999, 999, 999)），是 Spark安装与部属 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hadoop 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Google 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Spark 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "分布式计算",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式计算 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Chapter 8 云计算理论研究热点（4学时）",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(999, 999, 999)），是 Chapter 8 云计算理论研究热点（4学时） 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云存储的基本概念",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(4, 0, 0)），是 云存储的基本概念 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "云存储的基本概念",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(4, 0, 0)），是 云存储的基本概念 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云存储的基本概念",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(4, 0, 0)），是 云存储的基本概念 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "云存储的基本概念",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式文件系统 在课程中先出现（(4, 0, 0)），是 云存储的基本概念 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云存储的基本概念",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(4, 0, 0)），是 云存储的基本概念 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式文件系统 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "GFS",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "GFS 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "访问控制 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "能耗 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Google 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "高扩展性",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "高扩展性 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "高可靠性",
+      "target": "云存储的关键技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "高可靠性 在课程中先出现（(4, 1, 0)），是 云存储的关键技术 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "典型云存储系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(999, 999, 999)），是 典型云存储系统 的前置"
+    },
+    {
+      "source": "AWS",
+      "target": "典型云存储系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "AWS 在课程中先出现（(999, 999, 999)），是 典型云存储系统 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "典型云存储系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "访问控制 在课程中先出现（(999, 999, 999)），是 典型云存储系统 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "典型云存储系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "容器 在课程中先出现（(999, 999, 999)），是 典型云存储系统 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "典型云存储系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Amazon 在课程中先出现（(999, 999, 999)），是 典型云存储系统 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "典型云存储系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(999, 999, 999)），是 典型云存储系统 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "典型云存储系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(999, 999, 999)），是 典型云存储系统 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "典型的云存储服务平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(4, 3, 0)），是 典型的云存储服务平台 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "云计算系统的资源监管体系",
+      "target": "资源监管",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算系统的资源监管体系 在课程中先出现（(5, 0, 0)），是 资源监管 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "容器 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "资源池 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "云计算系统的资源监管体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(5, 0, 0)），是 云计算系统的资源监管体系 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算系统的资源监测",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(5, 1, 0)），是 云计算系统的资源监测 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "云计算系统的资源监测",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(5, 1, 0)），是 云计算系统的资源监测 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云计算系统的资源监测",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(5, 1, 0)），是 云计算系统的资源监测 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云计算系统的资源监测",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(5, 1, 0)），是 云计算系统的资源监测 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "云计算系统的资源监测",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(5, 1, 0)），是 云计算系统的资源监测 的前置"
+    },
+    {
+      "source": "云计算系统的资源监测",
+      "target": "OpenStack",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算系统的资源监测 在课程中先出现（(5, 1, 0)），是 OpenStack 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算系统的任务调度",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(5, 2, 0)），是 云计算系统的任务调度 的前置"
+    },
+    {
+      "source": "任务调度",
+      "target": "云计算系统的任务调度",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "任务调度 在课程中先出现（(5, 2, 0)），是 云计算系统的任务调度 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云计算系统的任务调度",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(5, 2, 0)），是 云计算系统的任务调度 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "云计算系统的任务调度",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(5, 2, 0)），是 云计算系统的任务调度 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云计算系统的任务调度",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(5, 2, 0)），是 云计算系统的任务调度 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "访问控制 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "SDN 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "云计算系统的网络监管",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "资源池 在课程中先出现（(5, 3, 0)），是 云计算系统的网络监管 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云资源监管系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(5, 4, 0)），是 云资源监管系统 的前置"
+    },
+    {
+      "source": "资源监管",
+      "target": "云资源监管系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "资源监管 在课程中先出现（(5, 4, 0)），是 云资源监管系统 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "云资源监管系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(5, 4, 0)），是 云资源监管系统 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云资源监管系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(5, 4, 0)），是 云资源监管系统 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "云资源监管系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "SDN 在课程中先出现（(5, 4, 0)），是 云资源监管系统 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云资源监管系统",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(5, 4, 0)），是 云资源监管系统 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算安全问题分析",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(6, 0, 0)），是 云计算安全问题分析 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "云计算安全问题分析",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(6, 0, 0)），是 云计算安全问题分析 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "云计算安全问题分析",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Google 在课程中先出现（(6, 0, 0)），是 云计算安全问题分析 的前置"
+    },
+    {
+      "source": "隔离技术",
+      "target": "云计算安全问题分析",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "隔离技术 在课程中先出现（(6, 0, 0)），是 云计算安全问题分析 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云计算安全问题分析",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(6, 0, 0)），是 云计算安全问题分析 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云计算安全问题分析",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(6, 0, 0)），是 云计算安全问题分析 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算安全保障技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(6, 1, 0)），是 云计算安全保障技术 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "云计算安全保障技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据加密 在课程中先出现（(6, 1, 0)），是 云计算安全保障技术 的前置"
+    },
+    {
+      "source": "隔离技术",
+      "target": "云计算安全保障技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "隔离技术 在课程中先出现（(6, 1, 0)），是 云计算安全保障技术 的前置"
+    },
+    {
+      "source": "身份认证",
+      "target": "云计算安全保障技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "身份认证 在课程中先出现（(6, 1, 0)），是 云计算安全保障技术 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "云计算安全保障技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "访问控制 在课程中先出现（(6, 1, 0)），是 云计算安全保障技术 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "云计算安全保障技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(6, 1, 0)），是 云计算安全保障技术 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "云计算安全保障技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "SDN 在课程中先出现（(6, 1, 0)），是 云计算安全保障技术 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "身份认证",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "身份认证 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "访问控制 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "AWS",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "AWS 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "云计算安全服务体系",
+      "target": "Azure",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云计算安全服务体系 在课程中先出现（(6, 2, 0)），是 Azure 的前置"
+    },
+    {
+      "source": "混合云",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "混合云 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "私有云 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "云计算安全服务体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(6, 2, 0)），是 云计算安全服务体系 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云数据中心的能耗",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(7, 0, 0)），是 云数据中心的能耗 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "云数据中心的能耗",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "能耗 在课程中先出现（(7, 0, 0)），是 云数据中心的能耗 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云数据中心的能耗",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(7, 0, 0)），是 云数据中心的能耗 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "云数据中心的能耗",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(7, 0, 0)），是 云数据中心的能耗 的前置"
+    },
+    {
+      "source": "云数据中心的能耗",
+      "target": "阿里云",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云数据中心的能耗 在课程中先出现（(7, 0, 0)），是 阿里云 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云数据中心的能效评价体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(7, 1, 0)），是 云数据中心的能效评价体系 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云数据中心的能效评价体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(7, 1, 0)），是 云数据中心的能效评价体系 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "云数据中心的能效评价体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(7, 1, 0)），是 云数据中心的能效评价体系 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云数据中心的能效评价体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(7, 1, 0)），是 云数据中心的能效评价体系 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "云数据中心的能效评价体系",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "能耗 在课程中先出现（(7, 1, 0)），是 云数据中心的能效评价体系 的前置"
+    },
+    {
+      "source": "云数据中心的能效评价体系",
+      "target": "PUE",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "云数据中心的能效评价体系 在课程中先出现（(7, 1, 0)），是 PUE 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "绿色计算",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "绿色计算 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "能耗 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "任务调度",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "任务调度 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "绿色云计算节能技术",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "资源池 在课程中先出现（(7, 2, 0)），是 绿色云计算节能技术 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "节能的云数据管理",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(7, 3, 0)），是 节能的云数据管理 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "节能的云数据管理",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(7, 3, 0)），是 节能的云数据管理 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "节能的云数据管理",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(7, 3, 0)），是 节能的云数据管理 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Amazon 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式文件系统 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "AWS",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "AWS 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "MapReduce 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "分布式计算",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式计算 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "NoSQL",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "NoSQL 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "Amazon云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(8, 0, 0)），是 Amazon云计算平台 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "Microsoft",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Microsoft 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "Azure",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Azure 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "PaaS",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "PaaS 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "访问控制 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "NoSQL",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "NoSQL 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "高可靠性",
+      "target": "Microsoft云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "高可靠性 在课程中先出现（(8, 1, 0)），是 Microsoft云计算平台 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "阿里云",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "阿里云 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "阿里云计算平台",
+      "target": "阿里巴巴",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "阿里云计算平台 在课程中先出现（(8, 2, 0)），是 阿里巴巴 的前置"
+    },
+    {
+      "source": "分布式计算",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "分布式计算 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Spark 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "IaaS 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Hadoop 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "私有云 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "并行计算",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "并行计算 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "高性能计算",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "高性能计算 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "HDFS 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "容器 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "阿里云计算平台",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "访问控制 在课程中先出现（(8, 2, 0)），是 阿里云计算平台 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "操作系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(9, 0, 0)），是 操作系统概览 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "操作系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(9, 0, 0)），是 操作系统概览 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "操作系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(9, 0, 0)），是 操作系统概览 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "操作系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(9, 0, 0)），是 操作系统概览 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "操作系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(9, 0, 0)），是 操作系统概览 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "操作系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "IaaS 在课程中先出现（(9, 0, 0)），是 操作系统概览 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "操作系统概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "私有云 在课程中先出现（(9, 0, 0)），是 操作系统概览 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "OpenStack简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "OpenStack 在课程中先出现（(9, 1, 0)），是 OpenStack简介 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "OpenStack简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(9, 1, 0)），是 OpenStack简介 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "OpenStack体系架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "OpenStack 在课程中先出现（(9, 2, 0)），是 OpenStack体系架构与核心组件 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "OpenStack体系架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(9, 2, 0)），是 OpenStack体系架构与核心组件 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "OpenStack体系架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(9, 2, 0)），是 OpenStack体系架构与核心组件 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "OpenStack体系架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(9, 2, 0)），是 OpenStack体系架构与核心组件 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "OpenStack体系架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "资源池 在课程中先出现（(9, 2, 0)），是 OpenStack体系架构与核心组件 的前置"
+    },
+    {
+      "source": "AWS",
+      "target": "OpenStack体系架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "AWS 在课程中先出现（(9, 2, 0)），是 OpenStack体系架构与核心组件 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "OpenStack体系架构与核心组件",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "容器 在课程中先出现（(9, 2, 0)），是 OpenStack体系架构与核心组件 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "OpenStack安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "OpenStack 在课程中先出现（(9, 3, 0)），是 OpenStack安装与部署 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "OpenStack安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(9, 3, 0)），是 OpenStack安装与部署 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "OpenStack安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(9, 3, 0)），是 OpenStack安装与部署 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "OpenStack 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "私有云 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "公有云",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "公有云 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "VMware",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "VMware 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Amazon 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云服务 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "身份认证",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "身份认证 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "AWS",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "AWS 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "资源池 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "弹性 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "容器 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "负载均衡",
+      "target": "Chapter 7 OpenStack(4学时)",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "负载均衡 在课程中先出现（(999, 999, 999)），是 Chapter 7 OpenStack(4学时) 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "仿真平台概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(10, 0, 0)），是 仿真平台概览 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "仿真平台概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(10, 0, 0)），是 仿真平台概览 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "仿真平台概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(10, 0, 0)），是 仿真平台概览 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "仿真平台概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "Amazon 在课程中先出现（(10, 0, 0)），是 仿真平台概览 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "仿真平台概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "能耗 在课程中先出现（(10, 0, 0)），是 仿真平台概览 的前置"
+    },
+    {
+      "source": "高可靠性",
+      "target": "仿真平台概览",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "高可靠性 在课程中先出现（(10, 0, 0)），是 仿真平台概览 的前置"
+    },
+    {
+      "source": "CloudSim简介",
+      "target": "CloudSim",
+      "relation": "introduces",
+      "label": "涉及",
+      "reason": "CloudSim简介 在课程中先出现（(10, 1, 0)），是 CloudSim 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "CloudSim简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(10, 1, 0)），是 CloudSim简介 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "CloudSim简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(10, 1, 0)），是 CloudSim简介 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "CloudSim简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(10, 1, 0)），是 CloudSim简介 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "CloudSim简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(10, 1, 0)），是 CloudSim简介 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "CloudSim简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "容器 在课程中先出现（(10, 1, 0)），是 CloudSim简介 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "CloudSim简介",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "能耗 在课程中先出现（(10, 1, 0)），是 CloudSim简介 的前置"
+    },
+    {
+      "source": "CloudSim",
+      "target": "CloudSim架构与核心类",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "CloudSim 在课程中先出现（(10, 2, 0)），是 CloudSim架构与核心类 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "CloudSim架构与核心类",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(10, 2, 0)），是 CloudSim架构与核心类 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "CloudSim架构与核心类",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(10, 2, 0)），是 CloudSim架构与核心类 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "CloudSim架构与核心类",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(10, 2, 0)），是 CloudSim架构与核心类 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "CloudSim架构与核心类",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(10, 2, 0)），是 CloudSim架构与核心类 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "CloudSim架构与核心类",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟化 在课程中先出现（(10, 2, 0)），是 CloudSim架构与核心类 的前置"
+    },
+    {
+      "source": "CloudSim",
+      "target": "CloudSim安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "CloudSim 在课程中先出现（(10, 3, 0)），是 CloudSim安装与部署 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "CloudSim安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云计算 在课程中先出现（(10, 3, 0)），是 CloudSim安装与部署 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "CloudSim安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "云数据中心 在课程中先出现（(10, 3, 0)），是 CloudSim安装与部署 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "CloudSim安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "数据中心 在课程中先出现（(10, 3, 0)），是 CloudSim安装与部署 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "CloudSim安装与部署",
+      "relation": "reverse_introduces",
+      "label": "逆-涉及",
+      "reason": "虚拟机 在课程中先出现（(10, 3, 0)），是 CloudSim安装与部署 的前置"
+    },
+    {
+      "source": "按量计费",
+      "target": "按需使用",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "按量计费 在课程中先出现（(0, 0, 6)），是 按需使用 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "虚拟化",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 虚拟化 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "弹性",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 7)），是 弹性 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "资源池",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 19)），是 资源池 的前置"
+    },
+    {
+      "source": "虚拟化资源池",
+      "target": "资源池",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟化资源池 在课程中先出现（(0, 0, 19)），是 资源池 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "资源池",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 19)），是 资源池 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "资源池",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 0, 19)），是 资源池 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "虚拟化资源池",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 虚拟化资源池 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "效用计算",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 效用计算 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "虚拟化",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 7)），是 虚拟化 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云服务",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 云服务 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "虚拟化资源池",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 7)），是 虚拟化资源池 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "效用计算",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 7)），是 效用计算 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云服务",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 云服务 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "IaaS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 IaaS 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "IaaS",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 8)），是 IaaS 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "PaaS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 PaaS 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "私有云",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 私有云 的前置"
+    },
+    {
+      "source": "网格计算",
+      "target": "并行计算",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "网格计算 在课程中先出现（(0, 0, 12)），是 并行计算 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "网格计算",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 12)），是 网格计算 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "分布式计算",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 12)），是 分布式计算 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "并行计算",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 12)），是 并行计算 的前置"
+    },
+    {
+      "source": "并行计算",
+      "target": "高性能计算",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "并行计算 在课程中先出现（(0, 0, 12)），是 高性能计算 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "边缘计算",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 15)），是 边缘计算 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "Amazon",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 Amazon 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "Microsoft",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 Microsoft 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Google",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 15)），是 Google 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "Google",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 0, 15)），是 Google 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Amazon",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 15)），是 Amazon 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "Amazon",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 0, 15)），是 Amazon 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Microsoft",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 15)），是 Microsoft 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "Microsoft",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 0, 15)），是 Microsoft 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "MapReduce",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 MapReduce 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "分布式文件系统",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 分布式文件系统 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "BigTable",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 BigTable 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "GFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 GFS 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "分布式文件系统",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "MapReduce 在课程中先出现（(0, 0, 16)），是 分布式文件系统 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "MapReduce",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Amazon 在课程中先出现（(0, 0, 16)），是 MapReduce 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "BigTable",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "MapReduce 在课程中先出现（(0, 0, 16)），是 BigTable 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "MapReduce",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 16)），是 MapReduce 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "GFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "MapReduce 在课程中先出现（(0, 0, 16)），是 GFS 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "AWS",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Amazon 在课程中先出现（(0, 0, 16)），是 AWS 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "AWS",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 16)），是 AWS 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "VMware",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Amazon 在课程中先出现（(0, 0, 16)），是 VMware 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "VMware",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 16)），是 VMware 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "分布式文件系统",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Amazon 在课程中先出现（(0, 0, 16)），是 分布式文件系统 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "BigTable",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "分布式文件系统 在课程中先出现（(0, 0, 16)），是 BigTable 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "分布式文件系统",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 16)），是 分布式文件系统 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "GFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "分布式文件系统 在课程中先出现（(0, 0, 16)），是 GFS 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "分布式文件系统",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 0, 16)），是 分布式文件系统 的前置"
+    },
+    {
+      "source": "BigTable",
+      "target": "GFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "BigTable 在课程中先出现（(0, 0, 16)），是 GFS 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "GFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 GFS 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "虚拟机",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "资源池 在课程中先出现（(0, 0, 19)），是 虚拟机 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "虚拟机",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 虚拟机 的前置"
+    },
+    {
+      "source": "高扩展性",
+      "target": "高可靠性",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "高扩展性 在课程中先出现（(0, 0, 19)），是 高可靠性 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "虚拟机",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 19)），是 虚拟机 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "虚拟机",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 0, 19)），是 虚拟机 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "高可靠性",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 高可靠性 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "容器",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 容器 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "容器",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 容器 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "私有云",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 私有云 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "虚拟机",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "私有云 在课程中先出现（(0, 0, 19)），是 虚拟机 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "容器",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟机 在课程中先出现（(0, 0, 19)），是 容器 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "任务调度",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 任务调度 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "任务调度",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟机 在课程中先出现（(0, 1, 11)），是 任务调度 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "任务调度",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 1, 11)），是 任务调度 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "数据中心",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 数据中心 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "SDN 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "隔离技术",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 隔离技术 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "身份认证",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 身份认证 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "访问控制",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 访问控制 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "数据加密",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 1, 12)），是 数据加密 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "数据加密",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 1, 12)），是 数据加密 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "SDN",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 1, 12)），是 SDN 的前置"
+    },
+    {
+      "source": "隔离技术",
+      "target": "身份认证",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "隔离技术 在课程中先出现（(0, 1, 12)），是 身份认证 的前置"
+    },
+    {
+      "source": "隔离技术",
+      "target": "访问控制",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "隔离技术 在课程中先出现（(0, 1, 12)），是 访问控制 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "隔离技术",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 1, 12)），是 隔离技术 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "隔离技术",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 1, 12)），是 隔离技术 的前置"
+    },
+    {
+      "source": "身份认证",
+      "target": "访问控制",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "身份认证 在课程中先出现（(0, 1, 12)），是 访问控制 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "身份认证",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 1, 12)），是 身份认证 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "身份认证",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云服务 在课程中先出现（(0, 1, 12)），是 身份认证 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "访问控制",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(0, 1, 12)），是 访问控制 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "绿色计算",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 绿色计算 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "云数据中心",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 云数据中心 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "云数据中心",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "数据中心 在课程中先出现（(0, 2, 1)），是 云数据中心 的前置"
+    },
+    {
+      "source": "Microsoft",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Microsoft 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "边缘计算",
+      "target": "数据中心",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "边缘计算 在课程中先出现（(0, 0, 15)），是 数据中心 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "云数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "能耗 在课程中先出现（(0, 2, 3)），是 云数据中心 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "能耗 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "能耗",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 能耗 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Hadoop",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 Hadoop 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "HBase",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 HBase 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "HDFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 HDFS 的前置"
+    },
+    {
+      "source": "Google",
+      "target": "Hadoop",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Google 在课程中先出现（(0, 0, 15)），是 Hadoop 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "HBase",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "MapReduce 在课程中先出现（(0, 0, 16)），是 HBase 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "HDFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "MapReduce 在课程中先出现（(0, 0, 16)），是 HDFS 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Hadoop",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "MapReduce 在课程中先出现（(0, 0, 16)），是 Hadoop 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "HBase",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "分布式文件系统 在课程中先出现（(0, 0, 16)），是 HBase 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "HDFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "分布式文件系统 在课程中先出现（(0, 0, 16)），是 HDFS 的前置"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "Hadoop",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "分布式文件系统 在课程中先出现（(0, 0, 16)），是 Hadoop 的前置"
+    },
+    {
+      "source": "BigTable",
+      "target": "HBase",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "BigTable 在课程中先出现（(0, 0, 16)），是 HBase 的前置"
+    },
+    {
+      "source": "BigTable",
+      "target": "HDFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "BigTable 在课程中先出现（(0, 0, 16)），是 HDFS 的前置"
+    },
+    {
+      "source": "BigTable",
+      "target": "Hadoop",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "BigTable 在课程中先出现（(0, 0, 16)），是 Hadoop 的前置"
+    },
+    {
+      "source": "HBase",
+      "target": "HDFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "HBase 在课程中先出现（(1, 1, 4)），是 HDFS 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "HBase",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Hadoop 在课程中先出现（(1, 1, 4)），是 HBase 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "HDFS",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Hadoop 在课程中先出现（(1, 1, 4)），是 HDFS 的前置"
+    },
+    {
+      "source": "GFS",
+      "target": "HDFS",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "GFS 在课程中先出现（(1, 1, 4)），是 HDFS 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Hive",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Hadoop 在课程中先出现（(1, 1, 6)），是 Hive 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "YARN",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "MapReduce 在课程中先出现（(1, 2, 3)），是 YARN 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "YARN",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "HDFS 在课程中先出现（(1, 2, 3)），是 YARN 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "YARN",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Hadoop 在课程中先出现（(1, 2, 3)），是 YARN 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "YARN",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(1, 2, 3)），是 YARN 的前置"
+    },
+    {
+      "source": "HBase",
+      "target": "YARN",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "HBase 在课程中先出现（(1, 2, 3)），是 YARN 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "HDFS",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(1, 1, 4)），是 HDFS 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "HBase",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 HBase 的前置"
+    },
+    {
+      "source": "分布式计算",
+      "target": "MapReduce",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "分布式计算 在课程中先出现（(0, 0, 16)），是 MapReduce 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Hive",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "HDFS 在课程中先出现（(1, 1, 6)），是 Hive 的前置"
+    },
+    {
+      "source": "HBase",
+      "target": "Hive",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "HBase 在课程中先出现（(1, 1, 6)），是 Hive 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Spark",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Hadoop 在课程中先出现（(2, 1, 1)），是 Spark 的前置"
+    },
+    {
+      "source": "并行计算",
+      "target": "Spark",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "并行计算 在课程中先出现（(2, 1, 1)），是 Spark 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Hive",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "MapReduce 在课程中先出现（(1, 1, 6)），是 Hive 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "Spark",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "HDFS 在课程中先出现（(2, 1, 1)），是 Spark 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Spark",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "MapReduce 在课程中先出现（(2, 1, 1)），是 Spark 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "Spark",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "弹性 在课程中先出现（(2, 1, 1)），是 Spark 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "并行计算",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 12)），是 并行计算 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "HDFS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 HDFS 的前置"
+    },
+    {
+      "source": "Hive",
+      "target": "Spark",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Hive 在课程中先出现（(2, 1, 1)），是 Spark 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "Hadoop",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 Hadoop 的前置"
+    },
+    {
+      "source": "AWS",
+      "target": "访问控制",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "AWS 在课程中先出现（(0, 0, 16)），是 访问控制 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "资源监管",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 资源监管 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "资源监管",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云数据中心 在课程中先出现（(0, 2, 3)），是 资源监管 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "云数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟机 在课程中先出现（(0, 2, 3)），是 云数据中心 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "云数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "容器 在课程中先出现（(0, 2, 3)），是 云数据中心 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "资源监管",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "数据中心 在课程中先出现（(5, 0, 1)），是 资源监管 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "资源监管",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟机 在课程中先出现（(5, 0, 1)），是 资源监管 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "资源监管",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "容器 在课程中先出现（(5, 0, 1)），是 资源监管 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟机 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "容器 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "负载均衡",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 负载均衡 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "容器",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 容器 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "负载均衡",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 负载均衡 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "负载均衡",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟机 在课程中先出现（(1, 2, 41)），是 负载均衡 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "负载均衡",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云计算 在课程中先出现（(1, 2, 41)），是 负载均衡 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "OpenStack",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 OpenStack 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "OpenStack",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟机 在课程中先出现（(0, 0, 19)），是 OpenStack 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "云数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟化 在课程中先出现（(0, 2, 3)），是 云数据中心 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "负载均衡",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "数据中心 在课程中先出现（(0, 2, 1)），是 负载均衡 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "云数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "SDN 在课程中先出现（(0, 2, 3)），是 云数据中心 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "负载均衡",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "云数据中心 在课程中先出现（(1, 2, 41)），是 负载均衡 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "资源监管",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "SDN 在课程中先出现（(5, 0, 1)），是 资源监管 的前置"
+    },
+    {
+      "source": "云服务",
+      "target": "访问控制",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云服务 在课程中先出现（(0, 0, 7)），是 访问控制 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "Azure",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 Azure 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "混合云",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 混合云 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "阿里云",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 阿里云 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "虚拟化",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "能耗 在课程中先出现（(0, 0, 7)），是 虚拟化 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "绿色计算",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "能耗 在课程中先出现（(0, 0, 5)），是 绿色计算 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "虚拟机",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "能耗 在课程中先出现（(0, 0, 19)），是 虚拟机 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "Amazon",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 15)），是 Amazon 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "分布式文件系统",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 分布式文件系统 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "分布式计算",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 分布式计算 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "负载均衡",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Amazon 在课程中先出现（(0, 0, 15)），是 负载均衡 的前置"
+    },
+    {
+      "source": "Microsoft",
+      "target": "Azure",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Microsoft 在课程中先出现（(0, 0, 15)），是 Azure 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "Azure",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "数据中心 在课程中先出现（(0, 2, 1)），是 Azure 的前置"
+    },
+    {
+      "source": "访问控制",
+      "target": "Azure",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "访问控制 在课程中先出现（(6, 2, 10)），是 Azure 的前置"
+    },
+    {
+      "source": "高可靠性",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "高可靠性 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "阿里云",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 阿里云 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "阿里巴巴",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 阿里巴巴 的前置"
+    },
+    {
+      "source": "分布式计算",
+      "target": "阿里云",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "分布式计算 在课程中先出现（(7, 0, 4)），是 阿里云 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "IaaS",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 IaaS 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "私有云",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 私有云 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "阿里云",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "Hadoop 在课程中先出现（(7, 0, 4)），是 阿里云 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "私有云",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "IaaS 在课程中先出现（(0, 0, 8)），是 私有云 的前置"
+    },
+    {
+      "source": "弹性",
+      "target": "高性能计算",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "弹性 在课程中先出现（(0, 0, 7)），是 高性能计算 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "数据中心",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "私有云 在课程中先出现（(0, 2, 1)），是 数据中心 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "OpenStack",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 OpenStack 的前置"
+    },
+    {
+      "source": "资源池",
+      "target": "OpenStack",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "资源池 在课程中先出现（(0, 0, 19)），是 OpenStack 的前置"
+    },
+    {
+      "source": "AWS",
+      "target": "OpenStack",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "AWS 在课程中先出现（(0, 0, 16)），是 OpenStack 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "Amazon",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 Amazon 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "OpenStack",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Amazon 在课程中先出现（(0, 0, 15)），是 OpenStack 的前置"
+    },
+    {
+      "source": "Amazon",
+      "target": "虚拟机",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "Amazon 在课程中先出现（(0, 0, 15)），是 虚拟机 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "CloudSim",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 CloudSim 的前置"
+    },
+    {
+      "source": "云数据中心",
+      "target": "CloudSim",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "云数据中心 在课程中先出现（(0, 2, 3)），是 CloudSim 的前置"
+    },
+    {
+      "source": "数据中心",
+      "target": "CloudSim",
+      "relation": "related_to",
+      "label": "相关",
+      "reason": "数据中心 在课程中先出现（(0, 2, 1)），是 CloudSim 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "CloudSim",
+      "relation": "reverse_related_to",
+      "label": "逆-相关",
+      "reason": "虚拟机 在课程中先出现（(10, 1, 3)），是 CloudSim 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "OpenStack",
+      "relation": "reverse_implements",
+      "label": "逆-实现",
+      "reason": "IaaS 在课程中先出现（(5, 1, 21)），是 OpenStack 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "AWS",
+      "relation": "reverse_provides",
+      "label": "逆-提供",
+      "reason": "IaaS 在课程中先出现（(0, 0, 16)），是 AWS 的前置"
+    },
+    {
+      "source": "PaaS",
+      "target": "AWS",
+      "relation": "reverse_provides",
+      "label": "逆-提供",
+      "reason": "PaaS 在课程中先出现（(0, 0, 16)），是 AWS 的前置"
+    },
+    {
+      "source": "SaaS",
+      "target": "AWS",
+      "relation": "reverse_provides",
+      "label": "逆-提供",
+      "reason": "SaaS 在课程中先出现（(0, 0, 16)），是 AWS 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "Azure",
+      "relation": "reverse_provides",
+      "label": "逆-提供",
+      "reason": "IaaS 在课程中先出现（(6, 2, 10)），是 Azure 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "阿里云",
+      "relation": "reverse_provides",
+      "label": "逆-提供",
+      "reason": "IaaS 在课程中先出现（(7, 0, 4)），是 阿里云 的前置"
+    },
+    {
+      "source": "PaaS",
+      "target": "容器",
+      "relation": "reverse_enables",
+      "label": "逆-支撑",
+      "reason": "PaaS 在课程中先出现（(0, 1, 5)），是 容器 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "SaaS",
+      "relation": "contains",
+      "label": "包含",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 SaaS 的前置"
+    },
+    {
+      "source": "云计算",
+      "target": "公有云",
+      "relation": "contains",
+      "label": "包含",
+      "reason": "云计算 在课程中先出现（(0, 0, 2)），是 公有云 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "Docker",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 Docker 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "KVM",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 KVM 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "Xen",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 Xen 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "VMware",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 VMware 的前置"
+    },
+    {
+      "source": "虚拟化",
+      "target": "Hyper-V",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟化 在课程中先出现（(0, 0, 7)），是 Hyper-V 的前置"
+    },
+    {
+      "source": "VMware",
+      "target": "虚拟机",
+      "relation": "reverse_extends_to",
+      "label": "逆-扩展为",
+      "reason": "VMware 在课程中先出现（(0, 0, 19)），是 虚拟机 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "VirtualBox",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟机 在课程中先出现（(0, 0, 19)），是 VirtualBox 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "KVM",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟机 在课程中先出现（(0, 0, 19)），是 KVM 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "Hyper-V",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟机 在课程中先出现（(0, 0, 19)），是 Hyper-V 的前置"
+    },
+    {
+      "source": "虚拟机",
+      "target": "Xen",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "虚拟机 在课程中先出现（(0, 0, 19)），是 Xen 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "Docker",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "容器 在课程中先出现（(0, 1, 5)），是 Docker 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "Kubernetes",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "容器 在课程中先出现（(0, 1, 5)），是 Kubernetes 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "微服务",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "容器 在课程中先出现（(0, 1, 5)），是 微服务 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "镜像",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "容器 在课程中先出现（(0, 1, 5)），是 镜像 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "仓库",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "容器 在课程中先出现（(0, 1, 5)），是 仓库 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "cgroups",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "容器 在课程中先出现（(0, 1, 5)），是 cgroups 的前置"
+    },
+    {
+      "source": "容器",
+      "target": "namespace",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "容器 在课程中先出现（(0, 1, 5)），是 namespace 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "PaaS",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "IaaS 在课程中先出现（(0, 0, 8)），是 PaaS 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "Amazon EC2",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "IaaS 在课程中先出现（(0, 0, 8)），是 Amazon EC2 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "阿里云ECS",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "IaaS 在课程中先出现（(0, 0, 8)），是 阿里云ECS 的前置"
+    },
+    {
+      "source": "IaaS",
+      "target": "公有云",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "IaaS 在课程中先出现（(0, 0, 8)），是 公有云 的前置"
+    },
+    {
+      "source": "PaaS",
+      "target": "Google App Engine",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "PaaS 在课程中先出现（(0, 0, 8)），是 Google App Engine 的前置"
+    },
+    {
+      "source": "PaaS",
+      "target": "Azure",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "PaaS 在课程中先出现（(0, 0, 8)），是 Azure 的前置"
+    },
+    {
+      "source": "PaaS",
+      "target": "Heroku",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "PaaS 在课程中先出现（(0, 0, 8)），是 Heroku 的前置"
+    },
+    {
+      "source": "PaaS",
+      "target": "开发框架",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "PaaS 在课程中先出现（(0, 0, 8)），是 开发框架 的前置"
+    },
+    {
+      "source": "SaaS",
+      "target": "IaaS",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SaaS 在课程中先出现（(0, 0, 8)），是 IaaS 的前置"
+    },
+    {
+      "source": "SaaS",
+      "target": "PaaS",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SaaS 在课程中先出现（(0, 0, 8)），是 PaaS 的前置"
+    },
+    {
+      "source": "SaaS",
+      "target": "CRM",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SaaS 在课程中先出现（(0, 0, 8)），是 CRM 的前置"
+    },
+    {
+      "source": "SaaS",
+      "target": "ERP",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SaaS 在课程中先出现（(0, 0, 8)），是 ERP 的前置"
+    },
+    {
+      "source": "SaaS",
+      "target": "Office 365",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SaaS 在课程中先出现（(0, 0, 8)），是 Office 365 的前置"
+    },
+    {
+      "source": "SaaS",
+      "target": "Salesforce",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SaaS 在课程中先出现（(0, 0, 8)），是 Salesforce 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Pig",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "Hadoop 在课程中先出现（(1, 1, 3)），是 Pig 的前置"
+    },
+    {
+      "source": "Hadoop",
+      "target": "Zookeeper",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "Hadoop 在课程中先出现（(1, 1, 3)），是 Zookeeper 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "NameNode",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "HDFS 在课程中先出现（(1, 1, 4)），是 NameNode 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "DataNode",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "HDFS 在课程中先出现（(1, 1, 4)），是 DataNode 的前置"
+    },
+    {
+      "source": "HDFS",
+      "target": "数据块",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "HDFS 在课程中先出现（(1, 1, 4)），是 数据块 的前置"
+    },
+    {
+      "source": "副本",
+      "target": "HDFS",
+      "relation": "reverse_extends_to",
+      "label": "逆-扩展为",
+      "reason": "副本 在课程中先出现（(1, 1, 4)），是 HDFS 的前置"
+    },
+    {
+      "source": "MapReduce",
+      "target": "Shuffle",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "MapReduce 在课程中先出现（(0, 0, 16)），是 Shuffle 的前置"
+    },
+    {
+      "source": "并行计算",
+      "target": "MapReduce",
+      "relation": "reverse_extends_to",
+      "label": "逆-扩展为",
+      "reason": "并行计算 在课程中先出现（(0, 0, 16)），是 MapReduce 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "RDD",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "Spark 在课程中先出现（(2, 1, 1)），是 RDD 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "Spark SQL",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "Spark 在课程中先出现（(2, 1, 1)），是 Spark SQL 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "Spark Streaming",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "Spark 在课程中先出现（(2, 1, 1)），是 Spark Streaming 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "MLlib",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "Spark 在课程中先出现（(2, 1, 1)），是 MLlib 的前置"
+    },
+    {
+      "source": "Spark",
+      "target": "GraphX",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "Spark 在课程中先出现（(2, 1, 1)），是 GraphX 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "Nova",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "OpenStack 在课程中先出现（(5, 1, 21)），是 Nova 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "Swift",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "OpenStack 在课程中先出现（(5, 1, 21)），是 Swift 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "Neutron",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "OpenStack 在课程中先出现（(5, 1, 21)），是 Neutron 的前置"
+    },
+    {
+      "source": "OpenStack",
+      "target": "Keystone",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "OpenStack 在课程中先出现（(5, 1, 21)），是 Keystone 的前置"
+    },
+    {
+      "source": "私有云",
+      "target": "OpenStack",
+      "relation": "reverse_extends_to",
+      "label": "逆-扩展为",
+      "reason": "私有云 在课程中先出现（(5, 1, 21)），是 OpenStack 的前置"
+    },
+    {
+      "source": "公有云",
+      "target": "OpenStack",
+      "relation": "reverse_extends_to",
+      "label": "逆-扩展为",
+      "reason": "公有云 在课程中先出现（(5, 1, 21)），是 OpenStack 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "OpenFlow",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SDN 在课程中先出现（(0, 1, 12)），是 OpenFlow 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "NFV",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SDN 在课程中先出现（(0, 1, 12)），是 NFV 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "网络虚拟化",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SDN 在课程中先出现（(0, 1, 12)），是 网络虚拟化 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "控制器",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SDN 在课程中先出现（(0, 1, 12)），是 控制器 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "交换机",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SDN 在课程中先出现（(0, 1, 12)），是 交换机 的前置"
+    },
+    {
+      "source": "SDN",
+      "target": "数据中心网络",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "SDN 在课程中先出现（(0, 1, 12)），是 数据中心网络 的前置"
+    },
+    {
+      "source": "NFV",
+      "target": "VNF",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "NFV 在课程中先出现（(0, 1, 12)），是 VNF 的前置"
+    },
+    {
+      "source": "NFV",
+      "target": "MANO",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "NFV 在课程中先出现（(0, 1, 12)），是 MANO 的前置"
+    },
+    {
+      "source": "NFV",
+      "target": "ETSI",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "NFV 在课程中先出现（(0, 1, 12)），是 ETSI 的前置"
+    },
+    {
+      "source": "NFV",
+      "target": "网络切片",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "NFV 在课程中先出现（(0, 1, 12)），是 网络切片 的前置"
+    },
+    {
+      "source": "NFV",
+      "target": "5G核心网",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "NFV 在课程中先出现（(0, 1, 12)），是 5G核心网 的前置"
+    },
+    {
+      "source": "边缘计算",
+      "target": "NFV",
+      "relation": "reverse_extends_to",
+      "label": "逆-扩展为",
+      "reason": "边缘计算 在课程中先出现（(0, 1, 12)），是 NFV 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "对称加密",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 对称加密 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "非对称加密",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 非对称加密 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "DES",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 DES 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "AES",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 AES 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "RSA",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 RSA 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "SSL/TLS",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 SSL/TLS 的前置"
+    },
+    {
+      "source": "数据加密",
+      "target": "数字签名",
+      "relation": "extends_to",
+      "label": "扩展为",
+      "reason": "数据加密 在课程中先出现（(0, 1, 12)），是 数字签名 的前置"
+    },
+    {
+      "source": "能耗",
+      "target": "按需使用",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 能耗 先于 按需使用 出现"
+    },
+    {
+      "source": "NIST",
+      "target": "虚拟化资源池",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 NIST 先于 虚拟化资源池 出现"
+    },
+    {
+      "source": "弹性",
+      "target": "效用计算",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 弹性 先于 效用计算 出现"
+    },
+    {
+      "source": "效用计算",
+      "target": "基础设施即服务",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 效用计算 先于 基础设施即服务 出现"
+    },
+    {
+      "source": "基础设施即服务",
+      "target": "IaaS",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 基础设施即服务 先于 IaaS 出现"
+    },
+    {
+      "source": "平台即服务",
+      "target": "PaaS",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 平台即服务 先于 PaaS 出现"
+    },
+    {
+      "source": "软件即服务",
+      "target": "SaaS",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 软件即服务 先于 SaaS 出现"
+    },
+    {
+      "source": "CRM",
+      "target": "公有云",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 CRM 先于 公有云 出现"
+    },
+    {
+      "source": "公有云",
+      "target": "私有云",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 公有云 先于 私有云 出现"
+    },
+    {
+      "source": "社区云",
+      "target": "混合云",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 社区云 先于 混合云 出现"
+    },
+    {
+      "source": "混合云",
+      "target": "分布式计算",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 混合云 先于 分布式计算 出现"
+    },
+    {
+      "source": "高性能计算",
+      "target": "边缘计算",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 高性能计算 先于 边缘计算 出现"
+    },
+    {
+      "source": "边缘计算",
+      "target": "Google",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 边缘计算 先于 Google 出现"
+    },
+    {
+      "source": "VMware",
+      "target": "LoudCloud",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 VMware 先于 LoudCloud 出现"
+    },
+    {
+      "source": "AWS",
+      "target": "分布式文件系统",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 AWS 先于 分布式文件系统 出现"
+    },
+    {
+      "source": "BigTable",
+      "target": "资源聚合",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 BigTable 先于 资源聚合 出现"
+    },
+    {
+      "source": "资源聚合",
+      "target": "虚拟机",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 资源聚合 先于 虚拟机 出现"
+    },
+    {
+      "source": "资源池",
+      "target": "高可靠性",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 资源池 先于 高可靠性 出现"
+    },
+    {
+      "source": "高可靠性",
+      "target": "副本",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 高可靠性 先于 副本 出现"
+    },
+    {
+      "source": "资源池",
+      "target": "管理中间件层",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 资源池 先于 管理中间件层 出现"
+    },
+    {
+      "source": "管理中间件层",
+      "target": "SOA构建层",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 管理中间件层 先于 SOA构建层 出现"
+    },
+    {
+      "source": "私有云",
+      "target": "Google",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 私有云 先于 Google 出现"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "副本",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 分布式文件系统 先于 副本 出现"
+    },
+    {
+      "source": "副本",
+      "target": "任务调度",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 副本 先于 任务调度 出现"
+    },
+    {
+      "source": "任务调度",
+      "target": "身份认证",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 任务调度 先于 身份认证 出现"
+    },
+    {
+      "source": "数据加密",
+      "target": "云计算数据中心",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 数据加密 先于 云计算数据中心 出现"
+    },
+    {
+      "source": "Microsoft",
+      "target": "液冷",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Microsoft 先于 液冷 出现"
+    },
+    {
+      "source": "边缘计算",
+      "target": "云数据中心",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 边缘计算 先于 云数据中心 出现"
+    },
+    {
+      "source": "云服务",
+      "target": "云计算数据中心",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云服务 先于 云计算数据中心 出现"
+    },
+    {
+      "source": "副本",
+      "target": "Hive",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 副本 先于 Hive 出现"
+    },
+    {
+      "source": "Hive",
+      "target": "Pig",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Hive 先于 Pig 出现"
+    },
+    {
+      "source": "Pig",
+      "target": "Shuffle",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Pig 先于 Shuffle 出现"
+    },
+    {
+      "source": "分布式文件系统",
+      "target": "高可靠性",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 分布式文件系统 先于 高可靠性 出现"
+    },
+    {
+      "source": "高可靠性",
+      "target": "DataNode",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 高可靠性 先于 DataNode 出现"
+    },
+    {
+      "source": "副本",
+      "target": "镜像",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 副本 先于 镜像 出现"
+    },
+    {
+      "source": "镜像",
+      "target": "数据块",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 镜像 先于 数据块 出现"
+    },
+    {
+      "source": "分布式计算",
+      "target": "Google",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 分布式计算 先于 Google 出现"
+    },
+    {
+      "source": "BigTable",
+      "target": "NoSQL",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 BigTable 先于 NoSQL 出现"
+    },
+    {
+      "source": "Hive",
+      "target": "负载均衡",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Hive 先于 负载均衡 出现"
+    },
+    {
+      "source": "MapReduce",
+      "target": "NameNode",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 MapReduce 先于 NameNode 出现"
+    },
+    {
+      "source": "并行计算",
+      "target": "HDFS",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 并行计算 先于 HDFS 出现"
+    },
+    {
+      "source": "Hive",
+      "target": "RDD",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Hive 先于 RDD 出现"
+    },
+    {
+      "source": "任务调度",
+      "target": "Spark SQL",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 任务调度 先于 Spark SQL 出现"
+    },
+    {
+      "source": "Spark SQL",
+      "target": "Spark Streaming",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Spark SQL 先于 Spark Streaming 出现"
+    },
+    {
+      "source": "Spark Streaming",
+      "target": "MLlib",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Spark Streaming 先于 MLlib 出现"
+    },
+    {
+      "source": "MLlib",
+      "target": "GraphX",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 MLlib 先于 GraphX 出现"
+    },
+    {
+      "source": "弹性",
+      "target": "控制器",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 弹性 先于 控制器 出现"
+    },
+    {
+      "source": "HDFS",
+      "target": "Spark SQL",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 HDFS 先于 Spark SQL 出现"
+    },
+    {
+      "source": "Hadoop",
+      "target": "负载均衡",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Hadoop 先于 负载均衡 出现"
+    },
+    {
+      "source": "Google",
+      "target": "Spark",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Google 先于 Spark 出现"
+    },
+    {
+      "source": "弹性",
+      "target": "RDD",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 弹性 先于 RDD 出现"
+    },
+    {
+      "source": "RDD",
+      "target": "Spark Streaming",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 RDD 先于 Spark Streaming 出现"
+    },
+    {
+      "source": "MapReduce",
+      "target": "副本",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 MapReduce 先于 副本 出现"
+    },
+    {
+      "source": "虚拟化",
+      "target": "副本",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟化 先于 副本 出现"
+    },
+    {
+      "source": "副本",
+      "target": "数据中心",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 副本 先于 数据中心 出现"
+    },
+    {
+      "source": "副本",
+      "target": "数据块",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 副本 先于 数据块 出现"
+    },
+    {
+      "source": "GFS",
+      "target": "访问控制",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 GFS 先于 访问控制 出现"
+    },
+    {
+      "source": "访问控制",
+      "target": "负载均衡",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 访问控制 先于 负载均衡 出现"
+    },
+    {
+      "source": "能耗",
+      "target": "高可靠性",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 能耗 先于 高可靠性 出现"
+    },
+    {
+      "source": "高扩展性",
+      "target": "交换机",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 高扩展性 先于 交换机 出现"
+    },
+    {
+      "source": "Amazon",
+      "target": "数据中心",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Amazon 先于 数据中心 出现"
+    },
+    {
+      "source": "弹性",
+      "target": "副本",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 弹性 先于 副本 出现"
+    },
+    {
+      "source": "云数据中心",
+      "target": "控制器",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云数据中心 先于 控制器 出现"
+    },
+    {
+      "source": "容器",
+      "target": "交换机",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 容器 先于 交换机 出现"
+    },
+    {
+      "source": "资源池",
+      "target": "负载均衡",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 资源池 先于 负载均衡 出现"
+    },
+    {
+      "source": "负载均衡",
+      "target": "网络虚拟化",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 负载均衡 先于 网络虚拟化 出现"
+    },
+    {
+      "source": "虚拟机",
+      "target": "SDN",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟机 先于 SDN 出现"
+    },
+    {
+      "source": "资源池",
+      "target": "交换机",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 资源池 先于 交换机 出现"
+    },
+    {
+      "source": "虚拟机",
+      "target": "交换机",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟机 先于 交换机 出现"
+    },
+    {
+      "source": "虚拟机",
+      "target": "镜像",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟机 先于 镜像 出现"
+    },
+    {
+      "source": "云服务",
+      "target": "对称加密",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云服务 先于 对称加密 出现"
+    },
+    {
+      "source": "虚拟机",
+      "target": "身份认证",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟机 先于 身份认证 出现"
+    },
+    {
+      "source": "AWS",
+      "target": "Azure",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 AWS 先于 Azure 出现"
+    },
+    {
+      "source": "混合云",
+      "target": "私有云",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 混合云 先于 私有云 出现"
+    },
+    {
+      "source": "云数据中心",
+      "target": "阿里云",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云数据中心 先于 阿里云 出现"
+    },
+    {
+      "source": "虚拟化",
+      "target": "PUE",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟化 先于 PUE 出现"
+    },
+    {
+      "source": "任务调度",
+      "target": "云数据中心的能耗",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 任务调度 先于 云数据中心的能耗 出现"
+    },
+    {
+      "source": "云数据中心",
+      "target": "镜像",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云数据中心 先于 镜像 出现"
+    },
+    {
+      "source": "MapReduce",
+      "target": "NoSQL",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 MapReduce 先于 NoSQL 出现"
+    },
+    {
+      "source": "NoSQL",
+      "target": "负载均衡",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 NoSQL 先于 负载均衡 出现"
+    },
+    {
+      "source": "副本",
+      "target": "Amazon EC2",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 副本 先于 Amazon EC2 出现"
+    },
+    {
+      "source": "Azure",
+      "target": "Kubernetes",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Azure 先于 Kubernetes 出现"
+    },
+    {
+      "source": "虚拟机",
+      "target": "访问控制",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟机 先于 访问控制 出现"
+    },
+    {
+      "source": "访问控制",
+      "target": "NoSQL",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 访问控制 先于 NoSQL 出现"
+    },
+    {
+      "source": "弹性",
+      "target": "阿里巴巴",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 弹性 先于 阿里巴巴 出现"
+    },
+    {
+      "source": "IaaS",
+      "target": "Hadoop",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 IaaS 先于 Hadoop 出现"
+    },
+    {
+      "source": "私有云",
+      "target": "交换机",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 私有云 先于 交换机 出现"
+    },
+    {
+      "source": "并行计算",
+      "target": "阿里云ECS",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 并行计算 先于 阿里云ECS 出现"
+    },
+    {
+      "source": "容器",
+      "target": "HDFS",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 容器 先于 HDFS 出现"
+    },
+    {
+      "source": "HDFS",
+      "target": "负载均衡",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 HDFS 先于 负载均衡 出现"
+    },
+    {
+      "source": "IaaS",
+      "target": "云数据中心",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 IaaS 先于 云数据中心 出现"
+    },
+    {
+      "source": "云计算",
+      "target": "Nova",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云计算 先于 Nova 出现"
+    },
+    {
+      "source": "Nova",
+      "target": "Swift",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Nova 先于 Swift 出现"
+    },
+    {
+      "source": "云计算",
+      "target": "Neutron",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云计算 先于 Neutron 出现"
+    },
+    {
+      "source": "镜像",
+      "target": "Keystone",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 镜像 先于 Keystone 出现"
+    },
+    {
+      "source": "虚拟机",
+      "target": "控制器",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟机 先于 控制器 出现"
+    },
+    {
+      "source": "AWS",
+      "target": "容器",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 AWS 先于 容器 出现"
+    },
+    {
+      "source": "虚拟化",
+      "target": "VirtualBox",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 虚拟化 先于 VirtualBox 出现"
+    },
+    {
+      "source": "私有云",
+      "target": "Swift",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 私有云 先于 Swift 出现"
+    },
+    {
+      "source": "Amazon",
+      "target": "Keystone",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Amazon 先于 Keystone 出现"
+    },
+    {
+      "source": "数据中心",
+      "target": "KVM",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 数据中心 先于 KVM 出现"
+    },
+    {
+      "source": "KVM",
+      "target": "Xen",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 KVM 先于 Xen 出现"
+    },
+    {
+      "source": "Xen",
+      "target": "Hyper-V",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 Xen 先于 Hyper-V 出现"
+    },
+    {
+      "source": "AWS",
+      "target": "资源池",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 AWS 先于 资源池 出现"
+    },
+    {
+      "source": "弹性",
+      "target": "仓库",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 弹性 先于 仓库 出现"
+    },
+    {
+      "source": "副本",
+      "target": "负载均衡",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 副本 先于 负载均衡 出现"
+    },
+    {
+      "source": "云数据中心",
+      "target": "Amazon EC2",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 云数据中心 先于 Amazon EC2 出现"
+    },
+    {
+      "source": "能耗",
+      "target": "交换机",
+      "relation": "course_order",
+      "label": "课程顺序",
+      "reason": "在同一课件中 能耗 先于 交换机 出现"
+    }
+  ]
+}

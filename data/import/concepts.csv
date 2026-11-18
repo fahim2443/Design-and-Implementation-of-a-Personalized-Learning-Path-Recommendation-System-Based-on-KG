@@ -1,6 +1,0 @@
-﻿id,name,module,difficulty,est_minutes,description
-C001,What is cloud computing,Cloud fundamentals,1,30,On-demand delivery of computing resources over the internet
-C002,"IaaS, PaaS, SaaS",Cloud fundamentals,2,40,The three main cloud service models
-C003,Hypervisor,Virtualization,3,45,Software that lets one machine run multiple virtual machines
-C004,Virtual machine,Virtualization,2,40,A software-emulated computer running its own OS
-C005,What is a container,Containers,2,30,Isolated process packaged with its dependencies
