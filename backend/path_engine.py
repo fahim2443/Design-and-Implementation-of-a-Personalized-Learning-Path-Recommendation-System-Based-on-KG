@@ -52,6 +52,7 @@ def plan(G, target, mastered):
     # topological sort; when several are allowed, easiest first, then course order
     ordered = nx.lexicographical_topological_sort(
         sub, key=lambda n: (G.nodes[n]["order"][0], G.nodes[n]["order"][1],
+                            {"Topic": 0, "Concept": 1}.get(G.nodes[n]["type"], 2),
                             G.nodes[n]["diff"], G.nodes[n]["order"][2]))
     return [n for n in ordered if G.nodes[n]["cat"] not in NOT_STUDY or n == target]
 
