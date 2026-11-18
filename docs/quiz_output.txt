@@ -1,0 +1,8 @@
+budget 0 = no quiz (system assumes the student knows nothing)
+budget  0 graph : accuracy  67.8% | wrongly skipped  0.0 | unnecessary 10.5 | path length vs ideal 1.76x
+budget  4 graph : accuracy  74.8% | wrongly skipped  3.1 | unnecessary  5.1 | path length vs ideal 1.27x
+budget  4 random: accuracy  71.0% | wrongly skipped  2.6 | unnecessary  6.9 | path length vs ideal 1.41x
+budget  8 graph : accuracy  78.6% | wrongly skipped  3.2 | unnecessary  3.8 | path length vs ideal 1.16x
+budget  8 random: accuracy  74.9% | wrongly skipped  3.3 | unnecessary  4.9 | path length vs ideal 1.20x
+budget 12 graph : accuracy  81.9% | wrongly skipped  3.1 | unnecessary  2.8 | path length vs ideal 1.07x
+budget 12 random: accuracy  78.1% | wrongly skipped  4.0 | unnecessary  3.2 | path length vs ideal 1.06x

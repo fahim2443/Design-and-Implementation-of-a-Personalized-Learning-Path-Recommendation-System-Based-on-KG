@@ -1,0 +1,6 @@
+body { font-family: -apple-system, "PingFang SC", sans-serif; margin: 0; background: #f6f7f9; }
+.page { max-width: 960px; margin: 0 auto; padding: 24px; }
+.row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin: 12px 0; }
+.card { background: #fff; border-radius: 8px; padding: 16px; margin: 16px 0; box-shadow: 0 1px 4px #0002; }
+button { padding: 8px 14px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; }
+select { padding: 6px; max-width: 360px; }

@@ -51,3 +51,39 @@
 - Limits: model assumes missing prerequisites hurt learning; minutes estimated; random students (no real learners yet).
 - Raw output file: docs/simulation_output.txt
 - TODO: sensitivity test, classmate pilot.
+
+## Sensitivity test (27 settings: p_ok 0.8/0.9/0.95, p_missing 0.2/0.35/0.5, tries 2/3/4; 300 students x 3 targets, strong edges)
+- Time saved: min 64.2%, mean 65.3%, max 66.2%.
+- Success-rate gap (graph - slide): min -2.3, mean +0.2, max +2.6 points (no real difference).
+- Conclusion: time saving is robust to learning assumptions. Limit: this does not validate the graph edges themselves.
+- Files: docs/sensitivity_results.csv, docs/figures/fig_sensitivity.png
+
+## Student model (adaptive quiz, quiz.py)
+- Idea: correct answer => prerequisites assumed known; wrong => dependents assumed unknown. Question = item that splits the unknown set most evenly.
+- Assumptions: slip 10%, guess 20%, tested on simulated students only (200 per target). Compared against random question choice and budget 0.
+- Output file: docs/quiz_output.txt
+- Limit: inference only holds if the graph edges are true prerequisites (needs the hand-verified edges).
+
+## Student model (adaptive quiz, quiz.py)
+- Idea: correct answer => prerequisites assumed known; wrong => dependents assumed unknown. Question = item that splits the unknown set most evenly.
+- Assumptions: slip 10%, guess 20%, tested on simulated students only (200 per target). Compared against random question choice and budget 0.
+- Output file: docs/quiz_output.txt
+- Limit: inference only holds if the graph edges are true prerequisites (needs the hand-verified edges).
+
+## Quiz results (200 simulated students x 3 targets, slip 10%, guess 20%)
+| Questions | Accuracy graph/random | Path vs ideal graph/random |
+|---|---|---|
+| 0 | 67.8% | 1.76x |
+| 4 | 74.8 / 71.0 | 1.27 / 1.41 |
+| 8 | 78.6 / 74.9 | 1.16 / 1.20 |
+| 12 | 81.9 / 78.1 | 1.07 / 1.06 |
+- Graph-chosen questions help most with few questions. Wrongly skipped stays ~3 items (caused by lucky guesses): limitation, possible fix = require 2 correct answers.
+
+## API (api.py, FastAPI, port 8000)
+- Endpoints: GET /topics, GET /graph, POST /path, POST /quiz/start, POST /quiz/answer. Test page: /docs.
+- Quiz sessions kept in memory (demo-level, no login). Student history not yet saved in PostgreSQL (TODO).
+- Screenshot to take: the /docs page and one /path response.
+
+## Frontend status
+- Website runs at localhost:5173 and calls the API at localhost:8000. Dropdown, quiz, path card and force graph work.
+- Issue: Topic-only graph had almost no edges; switched to Topic+Concept.

@@ -3,3 +3,7 @@
 
 # Neo4j runtime data
 data/neo4j/
+
+# Python cache
+__pycache__/
+*.pyc
