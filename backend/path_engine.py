@@ -58,7 +58,7 @@ def plan(G, target, mastered):
 def linear_baseline(G, target, mastered):
     """Normal course order: everything up to the target, skipping mastered."""
     t_order = G.nodes[target]["order"]
-    items = [n for n in G.nodes if G.nodes[n]["order"] <= t_order and n not in mastered\n             and G.nodes[n]["cat"] not in NOT_STUDY]
+    items = [n for n in G.nodes if G.nodes[n]["order"] <= t_order and n not in mastered and G.nodes[n]["cat"] not in NOT_STUDY]
     return sorted(items, key=lambda n: G.nodes[n]["order"])
 
 def report(target, mastered):
