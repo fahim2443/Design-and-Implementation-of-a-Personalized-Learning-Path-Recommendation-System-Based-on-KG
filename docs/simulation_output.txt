@@ -1,0 +1,22 @@
+
+Edge set: all | students: 500
+  Target: Hadoop架构和核心组件
+    slide order: minutes    1547 | fails 21.7 | reached target 83.4%
+    graph path : minutes    1013 | fails 15.4 | reached target 84.6%
+  Target: 云计算系统的任务调度
+    slide order: minutes    2728 | fails 36.2 | reached target 92.0%
+    graph path : minutes    1343 | fails 20.6 | reached target 90.8%
+  Target: OpenStack体系架构与核心组件
+    slide order: minutes    4296 | fails 48.8 | reached target 81.8%
+    graph path : minutes    1421 | fails 21.0 | reached target 83.6%
+
+Edge set: strong | students: 500
+  Target: Hadoop架构和核心组件
+    slide order: minutes    1418 | fails 11.6 | reached target 85.2%
+    graph path : minutes     674 | fails  6.0 | reached target 84.6%
+  Target: 云计算系统的任务调度
+    slide order: minutes    2403 | fails 16.7 | reached target 95.0%
+    graph path : minutes     792 | fails  6.9 | reached target 94.2%
+  Target: OpenStack体系架构与核心组件
+    slide order: minutes    4013 | fails 28.0 | reached target 81.4%
+    graph path : minutes     992 | fails  8.4 | reached target 84.8%
