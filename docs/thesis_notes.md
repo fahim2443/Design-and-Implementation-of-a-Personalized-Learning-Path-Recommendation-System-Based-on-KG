@@ -87,3 +87,9 @@
 ## Frontend status
 - Website runs at localhost:5173 and calls the API at localhost:8000. Dropdown, quiz, path card and force graph work.
 - Issue: Topic-only graph had almost no edges; switched to Topic+Concept.
+
+## Algorithm variants (pathv.py, compare_variants.py, replan.py)
+- v1 = course order tie-break; v2 = global PageRank on reversed graph (hubs first); v3 = personalized PageRank toward the target.
+- Any valid order has equal total time in the simulator, so variants are compared on progress at 50% of the time budget.
+- Dynamic re-planning: after a failed item, distrust quiz-guessed prerequisites and re-run plan(). Assumption: reviewing a known item costs 20% of its time.
+- Outputs: docs/variants_output.txt, docs/replan_output.txt
