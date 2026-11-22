@@ -1,0 +1,14 @@
+
+First 12 items, v1, target Hadoop架构和核心组件:
+  云计算的定义与特征 > 云计算 > 虚拟化 > 云服务 > 虚拟化资源池 > 私有云 > 分布式计算 > 并行计算 > MapReduce > 分布式文件系统 > BigTable > GFS
+
+First 12 items, v2, target Hadoop架构和核心组件:
+  云计算的定义与特征 > 云计算 > 虚拟化 > 并行计算 > MapReduce > 分布式文件系统 > 私有云 > 虚拟机 > 云服务 > 资源池 > 虚拟化资源池 > 云计算的体系架构与关键技术
+
+First 12 items, v3, target Hadoop架构和核心组件:
+  云计算的定义与特征 > 云计算 > 分布式文件系统 > BigTable > 分布式计算 > 高可靠性 > 并行计算 > MapReduce > 副本 > GFS > 云计算数据中心 > 虚拟化
+
+Progress when only 50% of the study time is available (300 students per target)
+  v1: items mastered  50.2% | importance mastered  67.0%
+  v2: items mastered  46.2% | importance mastered  66.5%
+  v3: items mastered  48.3% | importance mastered  64.1%

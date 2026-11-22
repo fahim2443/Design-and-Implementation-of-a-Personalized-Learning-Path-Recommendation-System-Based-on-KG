@@ -93,3 +93,13 @@
 - Any valid order has equal total time in the simulator, so variants are compared on progress at 50% of the time budget.
 - Dynamic re-planning: after a failed item, distrust quiz-guessed prerequisites and re-run plan(). Assumption: reviewing a known item costs 20% of its time.
 - Outputs: docs/variants_output.txt, docs/replan_output.txt
+
+## Results: PageRank variants and re-planning
+- 50% time budget, items/importance mastered: v1 50.2/67.0, v2 46.2/66.5, v3 48.3/64.1. PageRank ordering did not beat course order (negative result, keep v1).
+- Re-planning, reached target: quiz 4 Q static 92.7% vs dynamic 100.0% (+36 min); quiz 8 Q 93.3% vs 99.8% (+44 min). Dynamic fixes quiz mistakes at about 5% extra time.
+- Assumptions: review costs 20%, 3 attempts, simulated students.
+
+## Re-planning demo (API /study/start, /study/report)
+- Student claims 7 known items: 17 remaining. After failing Hadoop简介, distrusted 云计算 and MapReduce: 19 remaining. A second failure (HBase) added nothing.
+- Only guessed items that are direct prerequisites of the failed item are distrusted (simplification).
+- Sessions are held in memory and lost on API restart (future work: PostgreSQL).

@@ -1,0 +1,5 @@
+Start from a noisy quiz result. Same students for both methods.
+  quiz  4 questions | static : minutes    729 | reached target  92.7%
+  quiz  4 questions | dynamic: minutes    763 | reached target 100.0%
+  quiz  8 questions | static : minutes    698 | reached target  91.2%
+  quiz  8 questions | dynamic: minutes    741 | reached target  99.8%

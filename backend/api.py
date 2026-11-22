@@ -97,3 +97,53 @@ def quiz_next(sid):
     s["left"] -= 1
     return {"session": sid, "done": False, "question": info(G_STRONG, q),
             "questions_left": s["left"]}
+
+
+# ---------- dynamic re-planning ----------
+from collections import defaultdict
+STUDY = {}
+
+def study_state(sid):
+    s = STUDY[sid]; G = G_STRONG
+    path = plan(G, s["target"], s["belief"])
+    todo = [n for n in path if n not in s["belief"]]
+    done = s["target"] in s["belief"]
+    return {"session": sid, "done": done,
+            "next": None if (done or not todo) else info(G, todo[0]),
+            "remaining": [info(G, n) for n in todo],
+            "minutes_left": sum(G.nodes[n]["minutes"] for n in todo),
+            "distrusted": s["distrusted"]}
+
+class StudyStart(BaseModel):
+    target: str
+    mastered: list[str] = []
+
+@app.post("/study/start")
+def study_start(req: StudyStart):
+    if req.target not in G_STRONG:
+        raise HTTPException(404, "unknown target")
+    sid = str(uuid.uuid4())
+    STUDY[sid] = dict(target=req.target, belief=set(req.mastered), verified=set(),
+                      attempts=defaultdict(int), distrusted=[])
+    return study_state(sid)
+
+class StudyReport(BaseModel):
+    session: str
+    item: str
+    success: bool
+
+@app.post("/study/report")
+def study_report(req: StudyReport):
+    s = STUDY.get(req.session)
+    if not s:
+        raise HTTPException(404, "unknown session")
+    if req.success:
+        s["belief"].add(req.item); s["verified"].add(req.item)
+    else:
+        s["attempts"][req.item] += 1
+        for p in G_STRONG.predecessors(req.item):
+            if p in s["belief"] and p not in s["verified"]:
+                s["belief"].discard(p); s["distrusted"].append(p)
+        if s["attempts"][req.item] >= 3:
+            s["belief"].add(req.item)       # give up on this item after 3 fails
+    return study_state(req.session)
