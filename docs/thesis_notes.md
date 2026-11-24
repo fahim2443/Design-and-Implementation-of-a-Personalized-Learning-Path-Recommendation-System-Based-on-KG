@@ -103,3 +103,56 @@
 - Student claims 7 known items: 17 remaining. After failing Hadoop简介, distrusted 云计算 and MapReduce: 19 remaining. A second failure (HBase) added nothing.
 - Only guessed items that are direct prerequisites of the failed item are distrusted (simplification).
 - Sessions are held in memory and lost on API restart (future work: PostgreSQL).
+
+## Edge validation (60 random strong edges after reduction; 240 total)
+- Labels: first pass by AI, human review pending. 12 are containment edges (Topic -> introduced term), counted as 1.
+- About 62% real prerequisites overall, about 52% excluding containment. Many rejected edges are co-mentions in slides.
+- Files: docs/edge_validation.csv, edge_validation_output.txt, rejected_edges.csv
+
+## Edge validation result (60 sampled strong edges)
+- 37/60 real prerequisites (62%, 95% CI 49-73%). Excluding containment: 25/47 (53%, CI 39-67%).
+- By type: introduces 12/13, extends_to 13/15, reverse_introduces 11/29 (38%). Decision: demote reverse_introduces to weak; cleaned strong set = introduces + extends_to + contains.
+- Limits: small sample, labels first-pass by AI (human review pending).
+
+## Failed experiment: demoting reverse_introduces
+- Removing all reverse_introduces edges (409 -> 137 strong edges) left every target with a 1-item path: those edges are the only ones pointing into Topics. Pruning must be per edge or rule-based, not per type.
+
+## Failed experiment 2: chapter-distance rule for reverse_introduces
+- Gap rule keeps only 4-5 of 29 edges and loses 8-9 of the 11 correct ones. Distance does not separate real prerequisites from co-mentions. Conclusion: needs per-edge review.
+
+## Pruning with the 23 rejected edges
+- Path items strong -> pruned: Hadoop 25 -> 25, task scheduling 28 -> 28, OpenStack 35 -> 18. Effect depends on where rejected edges sit; sample covers only part of the graph. Full review of 240 edges is next.
+
+## OpenStack path after pruning (18 items)
+云计算的定义与特征 > 云计算 > 虚拟化 > 虚拟化资源池 > 云服务 > IaaS > SaaS > PaaS > 私有云 > 并行计算 > 分布式文件系统 > MapReduce > 虚拟机 > 资源池 > 云计算的体系架构与关键技术 > 容器 > OpenStack > OpenStack体系架构与核心组件
+- Sensible: keeps virtualization, VMs, private cloud, containers; drops storage/energy/security topics. Still contains MapReduce/parallel computing/DFS (unreviewed edges). Order IaaS>SaaS>PaaS follows slide order.
+
+## Decision: use AI-labeled graph (no teacher review)
+- Graph rebuilt from the 240 reduced strong edges with ai_label=1 only (reviewed.py). Labels are an AI first pass from topic names, no domain expert check: state this limit. Optional later: classmate checks 30 rows for agreement.
+
+## Reviewed graph v1 (ai_label=1 edges only)
+- 409 -> 157 edges, DAG true. Path items: Hadoop 25->6, task scheduling 28->10, OpenStack 35->10, Spark 31->6.
+- Problem: 11 of 36 topics disconnected (1-item path): over-pruning. Fix: reconnect isolated topics.
+
+## Reviewed graph v2: reconnect isolated topics
+- v1 left 11 topics with 1-item paths; 云计算的定义与特征 (first topic) is legitimately empty. Rule: for other isolated topics, restore edges from basic terms (云计算, 虚拟化, 虚拟机, 数据中心, 云数据中心, 分布式计算, 云服务) that were labeled 0.
+
+## Reviewed graph v2 results
+- 165 edges; items: Hadoop 14, task scheduling 10, OpenStack 10, Spark 15 (strong: 25/28/35/31).
+- 5 non-first topics still without prerequisites (storage key tech, security analysis, Amazon/Microsoft/Alibaba platforms): left as limitation or one shared prerequisite.
+- Limit: AI labels, no expert review; simulator uses each graph's own arrows so it cannot judge correctness.
+
+## Graph comparison in simulator (300 students per target, own-graph judging)
+- Minutes / reached: Hadoop slide 1457/85.0, strong 696/84.3, reviewed 400/100; task scheduling 2445/93.0, 796/96.3, 219/99.7; OpenStack 3976/81.3, 970/83.7, 231/100; Spark 5311/92.7, 918/91.3, 471/100.
+- Caveat: each graph judged by its own arrows, so fewer arrows means fewer failures (circular). Need a fixed strict judge to check over-pruning.
+
+## Strict-judge test, API/website graph option, PostgreSQL log, pilot plan
+- strict.py: all paths judged by the original strong graph; metric = reached target and skipped-needed items. Output: docs/strict_output.txt
+- API and website now offer edge sets reviewed / strong / all. Events (quiz answers, study reports) logged to PostgreSQL table events; live session state still in memory.
+- Pilot: in person, 8-10 classmates, 6-question form (order sensible, skipped items, strong vs reviewed).
+
+## Strict-judge test (original strong graph as fixed judge, 300 students per target)
+- Reached / skipped-needed: Hadoop slide 100/0, strong 99.7/0.3, reviewed 69.7/7.4; task sched 99.7/0, 100/0.3, 90.7/13.6; OpenStack 100/0, 99.3/0.8, 91.7/17.7; Spark 99.3/0, 99.7/0.2, 77.7/11.2.
+- Minutes: strong saves ~55-80% vs slide order with ~no loss; reviewed saves more but over-prunes under the strict judge.
+- Decision: default graph = strong; reviewed = aggressive option. Pilot Q3 (skipped items) decides.
+- API and website now offer reviewed/strong/all; events logged to PostgreSQL (quiz_start, quiz_answer). Session state still in memory.

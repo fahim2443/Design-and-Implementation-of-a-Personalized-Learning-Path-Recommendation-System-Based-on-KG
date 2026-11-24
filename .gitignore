@@ -4,6 +4,9 @@
 # Neo4j runtime data
 data/neo4j/
 
+# PostgreSQL runtime data
+data/pg/
+
 # Python cache
 __pycache__/
 *.pyc

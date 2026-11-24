@@ -1,0 +1,17 @@
+Strict judge = original strong graph. 300 students per target.
+Hadoop架构和核心组件
+   slide order : minutes   1278 | reached 100.0% | skipped-needed items  0.0
+   strong graph: minutes    571 | reached  99.7% | skipped-needed items  0.3
+   reviewed v2 : minutes    481 | reached  69.7% | skipped-needed items  7.4
+云计算系统的任务调度
+   slide order : minutes   2233 | reached  99.7% | skipped-needed items  0.0
+   strong graph: minutes    688 | reached 100.0% | skipped-needed items  0.3
+   reviewed v2 : minutes    263 | reached  90.7% | skipped-needed items 13.6
+OpenStack体系架构与核心组件
+   slide order : minutes   3501 | reached 100.0% | skipped-needed items  0.0
+   strong graph: minutes    829 | reached  99.3% | skipped-needed items  0.8
+   reviewed v2 : minutes    274 | reached  91.7% | skipped-needed items 17.7
+Spark的架构与核心组件
+   slide order : minutes   4721 | reached  99.3% | skipped-needed items  0.0
+   strong graph: minutes    793 | reached  99.7% | skipped-needed items  0.2
+   reviewed v2 : minutes    573 | reached  77.7% | skipped-needed items 11.2

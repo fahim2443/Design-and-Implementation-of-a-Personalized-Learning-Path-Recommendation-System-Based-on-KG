@@ -1,0 +1,6 @@
+edges: 165 | still disconnected: ['云计算的定义与特征', '云存储的关键技术', '云计算安全问题分析', 'Amazon云计算平台', 'Microsoft云计算平台', '阿里云计算平台']
+Hadoop架构和核心组件: 14 items
+云计算系统的任务调度: 10 items
+OpenStack体系架构与核心组件: 10 items
+Spark的架构与核心组件: 15 items
+仿真平台概览: 11 items

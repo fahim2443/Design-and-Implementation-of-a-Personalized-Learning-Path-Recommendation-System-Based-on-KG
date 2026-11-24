@@ -6,12 +6,16 @@ from pydantic import BaseModel
 from path_engine import load_graph, plan, linear_baseline
 from quiz import caches, pick_question, update
 
+import db
+db.init()
 app = FastAPI(title="Learning Path API")
 app.add_middleware(CORSMiddleware, allow_origins=["*"],
                    allow_methods=["*"], allow_headers=["*"])
 
 G_STRONG = load_graph("strong")
 G_ALL = load_graph("all")
+from reviewed2 import load_reviewed2
+G_REV = load_reviewed2()
 SESSIONS = {}   # quiz sessions kept in memory (fine for a thesis demo)
 
 def info(G, n):
@@ -19,7 +23,7 @@ def info(G, n):
     return {"name": n, "type": d["type"], "difficulty": d["diff"], "minutes": d["minutes"]}
 
 def pick_graph(edge_set):
-    return G_ALL if edge_set == "all" else G_STRONG
+    return {"all": G_ALL, "reviewed": G_REV}.get(edge_set, G_STRONG)
 
 @app.get("/topics")
 def topics():
@@ -57,16 +61,19 @@ def path(req: PathReq):
 class QuizStart(BaseModel):
     target: str
     budget: int = 8
+    edge_set: str = "strong"
 
 @app.post("/quiz/start")
 def quiz_start(req: QuizStart):
     if req.target not in G_STRONG:
         raise HTTPException(404, "unknown target")
-    scope = nx.ancestors(G_STRONG, req.target) | {req.target}
-    anc, desc = caches(G_STRONG, scope)
+    GQ = pick_graph(req.edge_set)
+    scope = nx.ancestors(GQ, req.target) | {req.target}
+    anc, desc = caches(GQ, scope)
     sid = str(uuid.uuid4())
     SESSIONS[sid] = dict(target=req.target, scope=scope, anc=anc, desc=desc,
-                         known=set(), unknown=set(), left=req.budget, last=None)
+                         known=set(), unknown=set(), left=req.budget, last=None, edge_set=req.edge_set)
+    db.log(sid, "quiz_start", req.target, req.edge_set, "", req.budget)
     return quiz_next(sid)
 
 class QuizAnswer(BaseModel):
@@ -80,6 +87,7 @@ def quiz_answer(req: QuizAnswer):
         raise HTTPException(404, "unknown session")
     if s["last"] is not None:
         update(s["last"], req.correct, s["scope"], s["known"], s["unknown"], s["anc"], s["desc"])
+    db.log(req.session, "quiz_answer", s["target"], s["edge_set"], s["last"] or "", req.correct)
     return quiz_next(req.session)
 
 def quiz_next(sid):
@@ -93,7 +101,7 @@ def quiz_next(sid):
     if q is None:
         mastered = sorted(s["known"] - {s["target"]})
         return {"session": sid, "done": True, "mastered": mastered,
-                "path": path(PathReq(target=s["target"], mastered=mastered))}
+                "path": path(PathReq(target=s["target"], mastered=mastered, edge_set=s["edge_set"]))}
     s["left"] -= 1
     return {"session": sid, "done": False, "question": info(G_STRONG, q),
             "questions_left": s["left"]}
@@ -125,6 +133,7 @@ def study_start(req: StudyStart):
     sid = str(uuid.uuid4())
     STUDY[sid] = dict(target=req.target, belief=set(req.mastered), verified=set(),
                       attempts=defaultdict(int), distrusted=[])
+    db.log(sid, "study_start", req.target, "strong", "", ",".join(req.mastered))
     return study_state(sid)
 
 class StudyReport(BaseModel):
@@ -146,4 +155,5 @@ def study_report(req: StudyReport):
                 s["belief"].discard(p); s["distrusted"].append(p)
         if s["attempts"][req.item] >= 3:
             s["belief"].add(req.item)       # give up on this item after 3 fails
+    db.log(req.session, "study_report", s["target"], "strong", req.item, req.success)
     return study_state(req.session)

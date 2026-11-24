@@ -1,0 +1,36 @@
+labeled 60 edges | real prerequisites 37 (62%)
+95% confidence interval: 49% to 73%
+excluding 'introduces' (containment): 25/47 (53%), interval 39% to 67%
+
+By relation type:
+  contains             1/1 correct
+  extends_to           13/15 correct
+  introduces           12/13 correct
+  reverse_enables      0/1 correct
+  reverse_extends_to   0/1 correct
+  reverse_introduces   11/29 correct
+
+Rejected edges (label 0):
+  SDN  ->  NFV
+  数据中心  ->  典型云存储系统
+  SDN  ->  云计算安全保障技术
+  负载均衡  ->  云计算系统的资源监管体系
+  公有云  ->  OpenStack
+  SaaS  ->  IaaS
+  数据中心  ->  仿真平台概览
+  能耗  ->  云计算与其他技术
+  PaaS  ->  容器
+  Spark  ->  阿里云计算平台
+  NoSQL  ->  Amazon云计算平台
+  云计算系统的资源监测  ->  OpenStack
+  访问控制  ->  云存储的关键技术
+  负载均衡  ->  Amazon云计算平台
+  SDN  ->  云资源监管系统
+  弹性  ->  典型云存储系统
+  隔离技术  ->  云计算安全问题分析
+  负载均衡  ->  Spark的架构与核心组件
+  容器  ->  阿里云计算平台
+  云数据中心  ->  操作系统概览
+  分布式计算  ->  Chapter 8 云计算理论研究热点（4学时）
+  数据中心  ->  云计算与其他技术
+  Spark  ->  Chapter 8 云计算理论研究热点（4学时）

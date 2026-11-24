@@ -1,0 +1,4 @@
+rejected edges removed: 23
+Hadoop架构和核心组件: strong 25 items | pruned 25 items
+云计算系统的任务调度: strong 28 items | pruned 28 items
+OpenStack体系架构与核心组件: strong 35 items | pruned 18 items

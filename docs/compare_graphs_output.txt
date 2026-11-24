@@ -1,0 +1,21 @@
+27 settings
+time saved: min 63.7% | mean 65.3% | max 66.3%
+reach gap (graph - slide): min -1.8 | mean 0.3 | max 2.7 points
+saved docs/sensitivity_results.csv and docs/figures/fig_sensitivity.png
+minutes are averages over 300 simulated students per target
+Hadoop架构和核心组件
+   slide order : minutes   1457 | reached  85.0%
+   strong graph: minutes    696 | reached  84.3%
+   reviewed v2 : minutes    400 | reached 100.0%
+云计算系统的任务调度
+   slide order : minutes   2445 | reached  93.0%
+   strong graph: minutes    796 | reached  96.3%
+   reviewed v2 : minutes    219 | reached  99.7%
+OpenStack体系架构与核心组件
+   slide order : minutes   3976 | reached  81.3%
+   strong graph: minutes    970 | reached  83.7%
+   reviewed v2 : minutes    231 | reached 100.0%
+Spark的架构与核心组件
+   slide order : minutes   5311 | reached  92.7%
+   strong graph: minutes    918 | reached  91.3%
+   reviewed v2 : minutes    471 | reached 100.0%

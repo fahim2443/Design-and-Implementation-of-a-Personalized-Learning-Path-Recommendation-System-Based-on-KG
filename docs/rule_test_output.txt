@@ -1,0 +1,4 @@
+chapter gap <= 0: keeps 4/29 edges | correct among kept 2/4 | correct lost 9
+chapter gap <= 1: keeps 5/29 edges | correct among kept 3/5 | correct lost 8
+chapter gap <= 2: keeps 5/29 edges | correct among kept 3/5 | correct lost 8
+chapter gap <= 3: keeps 5/29 edges | correct among kept 3/5 | correct lost 8

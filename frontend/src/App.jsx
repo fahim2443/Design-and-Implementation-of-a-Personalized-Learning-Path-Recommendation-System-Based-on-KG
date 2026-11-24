@@ -11,6 +11,7 @@ export default function App() {
   const [topics, setTopics] = useState([]);
   const [target, setTarget] = useState("");
   const [budget, setBudget] = useState(8);
+  const [edgeSet, setEdgeSet] = useState("strong");
   const [quiz, setQuiz] = useState(null);
   const [result, setResult] = useState(null);
   const [graph, setGraph] = useState(null);
@@ -19,19 +20,22 @@ export default function App() {
     fetch(API + "/topics").then((r) => r.json()).then((t) => {
       setTopics(t); if (t.length) setTarget(t[t.length - 1].name);
     });
-    fetch(API + "/graph?edge_set=strong&types=Topic,Concept").then((r) => r.json()).then(setGraph);
   }, []);
+
+  useEffect(() => {
+    fetch(API + "/graph?edge_set=" + edgeSet + "&types=Topic,Concept").then((r) => r.json()).then(setGraph);
+  }, [edgeSet]);
 
   const handle = (q) => { if (q.done) { setQuiz(null); setResult(q); } else setQuiz(q); };
   const start = async () => {
     setResult(null);
-    handle(await post("/quiz/start", { target, budget: Number(budget) }));
+    handle(await post("/quiz/start", { target, budget: Number(budget), edge_set: edgeSet }));
   };
   const answer = async (correct) =>
     handle(await post("/quiz/answer", { session: quiz.session, correct }));
   const skipQuiz = async () => {
     setQuiz(null);
-    setResult({ mastered: [], path: await post("/path", { target, mastered: [], edge_set: "strong" }) });
+    setResult({ mastered: [], path: await post("/path", { target, mastered: [], edge_set: edgeSet }) });
   };
 
   const pathNames = new Set(result ? result.path.path.map((p) => p.name) : []);
@@ -64,6 +68,7 @@ export default function App() {
           <input type="number" min="0" max="20" value={budget} style={{ width: 60 }}
             onChange={(e) => setBudget(e.target.value)} />
         </label>
+        <label>Graph:&nbsp;<select value={edgeSet} onChange={(e) => setEdgeSet(e.target.value)}><option value="reviewed">reviewed</option><option value="strong">strong</option><option value="all">all</option></select></label>
         <button onClick={start}>Start quiz</button>
         <button onClick={skipQuiz}>Skip quiz (I know nothing)</button>
       </div>

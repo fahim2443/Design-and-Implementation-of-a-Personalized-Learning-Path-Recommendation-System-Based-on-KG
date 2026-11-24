@@ -1,0 +1,8 @@
+DAG: True | edges strong/reviewed: 409 157
+topics with a 1-item path (disconnected): 11 of 36
+Hadoop架构和核心组件: strong 25 | reviewed 6
+云计算系统的任务调度: strong 28 | reviewed 10
+OpenStack体系架构与核心组件: strong 35 | reviewed 10
+Spark的架构与核心组件: strong 31 | reviewed 6
+
+Hadoop path: 云计算的定义与特征 > 分布式计算 > Hadoop简介 > Hadoop > HDFS > Hadoop架构和核心组件
